@@ -1,0 +1,11 @@
+numpy
+scipy
+pandas
+rasterio
+pyproj
+shapely
+opencv-python
+scikit-image
+pytest
+jsonschema
+matplotlib

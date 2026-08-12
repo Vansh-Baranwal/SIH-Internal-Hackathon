@@ -1,0 +1,4 @@
+coordinates:
+  x: local_east_meters
+  y: local_north_meters
+  z: local_up_meters

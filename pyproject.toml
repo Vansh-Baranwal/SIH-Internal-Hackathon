@@ -1,0 +1,16 @@
+[project]
+name = "lunar-hazard-mapper"
+version = "0.1.0"
+dependencies = [
+    "numpy",
+    "scipy",
+    "pandas",
+    "rasterio",
+    "pyproj",
+    "shapely",
+    "opencv-python",
+    "scikit-image",
+    "pytest",
+    "jsonschema",
+    "matplotlib"
+]

@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+data/raw/*
+data/processed/*
+models/sr/*
+outputs/*
+results/experiments/*
+blender/*.blend1
+!**/README.md
+!**/.gitkeep
