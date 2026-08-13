@@ -9,3 +9,5 @@ scikit-image
 pytest
 jsonschema
 matplotlib
+affine
+
