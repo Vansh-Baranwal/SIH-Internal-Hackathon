@@ -27,6 +27,7 @@ from lunar_hazard_mapper.m4_hazards.shadow import detect_shadows
 from lunar_hazard_mapper.m4_hazards.confidence import calculate_confidence
 from lunar_hazard_mapper.m4_hazards.fusion import fuse_hazards
 from lunar_hazard_mapper.m4_hazards.validation import validate_hazards
+from lunar_hazard_mapper.m4_hazards.handoff import build_m4_to_m5
 
 from synthetic.terrain.combined import generate_combined
 
@@ -78,12 +79,35 @@ def main():
     with open(out_metrics / "m4_evaluation.json", "w") as f:
         json.dump(metrics, f, indent=2)
 
+    # M4 -> M5 handoff, per docs/api/M4_DATA_CONTRACT.md / the Member 5
+    # Integration Contract. This is pure assembly of the arrays/lists
+    # already computed above -- see handoff.py for the field-by-field
+    # source mapping.
+    m4_to_m5 = build_m4_to_m5(
+        dem=dem, slope=slope, roughness=roughness, confidence=confidence,
+        shadow_mask=shadow_mask, fused=fused, craters=craters, boulders=boulders,
+    )
+    np.savez_compressed(
+        out_hazards / "m4_to_m5.npz",
+        z=m4_to_m5["terrain"]["z"], dx=m4_to_m5["terrain"]["dx"], dy=m4_to_m5["terrain"]["dy"],
+        slope_deg=m4_to_m5["hazards"]["slope_deg"], binary_mask=m4_to_m5["hazards"]["binary_mask"],
+        continuous_risk=m4_to_m5["hazards"]["continuous_risk"], confidence=m4_to_m5["hazards"]["confidence"],
+        roughness=m4_to_m5["hazards"]["roughness"], crater_risk=m4_to_m5["hazards"]["crater_risk"],
+        boulder_risk=m4_to_m5["hazards"]["boulder_risk"], shadow_mask=m4_to_m5["hazards"]["shadow_mask"],
+    )
+    with open(out_hazards / "m4_to_m5_craters.json", "w") as f:
+        json.dump(m4_to_m5["craters"], f, indent=2)
+    with open(out_hazards / "m4_to_m5_boulders.json", "w") as f:
+        json.dump(m4_to_m5["boulders"], f, indent=2)
+
     print(f"\nGround truth: {len(gt['craters'])} craters, {len(gt['boulders'])} boulders")
     print(f"Detected:     {len(craters)} craters, {len(boulders)} boulders")
     print(f"Crater detection:  {metrics['crater_detection']}")
     print(f"Boulder detection: {metrics['boulder_detection']}")
     print(f"\nWrote: {out_hazards}/hazard_layers.npz, craters.json, boulders.json")
     print(f"Wrote: {out_metrics}/m4_evaluation.json")
+    print(f"Wrote: {out_hazards}/m4_to_m5.npz, m4_to_m5_craters.json, m4_to_m5_boulders.json "
+          f"(M5 handoff, per M4_DATA_CONTRACT.md)")
 
 
 if __name__ == "__main__":

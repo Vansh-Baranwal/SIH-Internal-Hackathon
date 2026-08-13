@@ -92,6 +92,15 @@ def test_crater_depth_diameter_recovered_within_tolerance():
     assert abs(best["diameter_px"] - gt["diameter_px"]) / gt["diameter_px"] < 0.5
 
 
+def test_crater_diameter_m_respects_nonunit_dx():
+    dem = generate_crater(shape=(128, 128), diameter_px=30.0, depth=8.0, rim_height=1.5, dx=0.5, dy=0.5)
+    gt = dem["ground_truth"]
+    candidates = detect_craters(dem, depression_min_depth=1.0)
+    assert len(candidates) >= 1
+    best = min(candidates, key=lambda c: (c["center_row"] - gt["center_row"]) ** 2 + (c["center_col"] - gt["center_col"]) ** 2)
+    assert abs(best["diameter_m"] - gt["diameter_m"]) / max(gt["diameter_m"], 1e-9) < 0.5
+
+
 def test_roughness_zero_on_flat_positive_on_bumpy():
     flat = generate_flat_terrain(shape=(32, 32))
     assert np.allclose(compute_roughness(flat, window=5), 0.0, atol=1e-10)

@@ -58,7 +58,8 @@ def detect_craters(dem: dict, depression_min_depth: float = 1.0,
         if len(coords) > 400:
             idx = np.random.default_rng(0).choice(len(coords), 400, replace=False)
             coords = coords[idx]
-        diam_px = _max_pairwise_distance(coords, dx, dy)
+        diam_m = _max_pairwise_distance(coords, dx, dy)
+        diam_px = diam_m / max(dx, 1e-12)
 
         rim_slope = float(np.mean(slope_deg[rows, cols])) if len(rows) else 0.0
         area_conf = min(1.0, region.area / min_area_px / 4.0)
@@ -68,7 +69,7 @@ def detect_craters(dem: dict, depression_min_depth: float = 1.0,
         candidates.append({
             "id": len(candidates),
             "center_row": float(region.centroid[0]), "center_col": float(region.centroid[1]),
-            "diameter_px": diam_px, "diameter_m": diam_px * dx,
+            "diameter_px": diam_px, "diameter_m": diam_m,
             "depth_m": depth, "rim_elevation_m": rim_elev, "floor_elevation_m": floor_elev,
             "rim_slope_deg": rim_slope, "confidence": confidence,
         })
