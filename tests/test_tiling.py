@@ -4,7 +4,12 @@ from rasterio.transform import rowcol, xy
 from lunar_hazard_mapper.m1_data.tiling import create_tiles
 
 def test_tiles_preserve_window_transforms(synthetic_raster, tmp_path):
-    records = create_tiles(synthetic_raster, tmp_path / "tiles", tile_size=64) if False else create_tiles(synthetic_raster, tmp_path / "tiles", tile_width=64, tile_height=64)
+    records = create_tiles(
+        synthetic_raster,
+        tmp_path / "tiles",
+        tile_width=64,
+        tile_height=64,
+    )
     assert len(records) == 16
     source = rasterio.open(synthetic_raster)
     first = records[0]
