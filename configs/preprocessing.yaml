@@ -1,0 +1,50 @@
+version: "1"
+allow_unreferenced: false
+paths:
+  tile_output: data/processed/tmc_tiles
+  manifest_output: data/manifests
+  qa_output: results/data_qa
+
+tiling:
+  tile_width: 256
+  tile_height: 256
+  overlap: 0
+  padding: false
+
+preprocessing:
+  nodata:
+    enabled: true
+  normalization:
+    enabled: true
+    method: percentile
+    lower: 1.0
+    upper: 99.0
+  dtype:
+    output: float32
+
+reference:
+  available: false
+  paths: []
+
+training_pairs:
+  output: data/processed/training_pairs
+  degradation:
+    blur:
+      enabled: true
+      sigma: 1.0
+    downsample:
+      enabled: true
+      scale_factor: 5
+    noise:
+      enabled: false
+      sigma: 0.0
+
+split:
+  method: geographic_blocks
+  block_width: 1000.0
+  block_height: 1000.0
+  train_fraction: 0.70
+  validation_fraction: 0.15
+  test_fraction: 0.15
+  seed: 42
+  tolerance: 1.0e-9

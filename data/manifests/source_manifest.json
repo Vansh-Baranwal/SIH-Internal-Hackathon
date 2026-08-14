@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "acquisition_metadata": {
+        "AREA_OR_POINT": "Area"
+      },
+      "bounds": {
+        "bottom": 720.0,
+        "left": 1000.0,
+        "right": 2280.0,
+        "top": 2000.0
+      },
+      "checksum": "0d631d295b203d7153e9693e62ffe48148f4e3a8619f257d86b3ea72e11fb523",
+      "count": 1,
+      "crs": "EPSG:3857",
+      "driver": "GTiff",
+      "dtype": "float32",
+      "height": 256,
+      "metadata": {
+        "AREA_OR_POINT": "Area"
+      },
+      "nodata": -9999.0,
+      "path": "/tmp/lhm-m1-83x4wxx6/synthetic.tif",
+      "pixel_size_x": 5.0,
+      "pixel_size_y": 5.0,
+      "processing_status": "raw",
+      "reference_data_available": false,
+      "resolution": {
+        "unit": "unknown",
+        "x": 5.0,
+        "y": 5.0
+      },
+      "schema_version": "1.0",
+      "source_id": "synthetic",
+      "transform": [
+        5.0,
+        0.0,
+        1000.0,
+        0.0,
+        -5.0,
+        2000.0
+      ],
+      "units": null,
+      "width": 256
+    }
+  ]
+}

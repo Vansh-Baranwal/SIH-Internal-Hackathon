@@ -1,0 +1,15 @@
+"""Content-addressable provenance helpers."""
+
+from __future__ import annotations
+
+import hashlib
+from pathlib import Path
+
+
+def calculate_sha256(path: str | Path, chunk_size: int = 1024 * 1024) -> str:
+    """Return the SHA-256 digest of *path* using bounded memory."""
+    digest = hashlib.sha256()
+    with Path(path).open("rb") as handle:
+        for chunk in iter(lambda: handle.read(chunk_size), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
