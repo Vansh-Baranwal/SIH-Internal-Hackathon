@@ -1,3 +1,8 @@
 name: Lander B
 mass_kg: 2000
 max_slope_deg: 5
+footprint_radius_m: 4.5
+landing_zone_size_m: 24.0
+min_clearance_m: 1.5
+max_roughness_m: 1.2
+min_confidence: 0.7
