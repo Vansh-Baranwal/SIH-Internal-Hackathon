@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "bounds": "PASS",
+    "crs": "PASS",
+    "dimensions": "PASS",
+    "nodata": "PASS",
+    "pixel_size": "PASS",
+    "provenance": "PASS",
+    "spatial_split": "PASS",
+    "transform": "PASS"
+  },
+  "dataset": "Member 1 artifacts",
+  "errors": [],
+  "status": "PASS",
+  "warnings": []
+}

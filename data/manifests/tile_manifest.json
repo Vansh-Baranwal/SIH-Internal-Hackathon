@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "tiles": [
+    {
+      "bounds": {
+        "bottom": 720.0,
+        "left": 1000.0,
+        "right": 2280.0,
+        "top": 2000.0
+      },
+      "column": 0,
+      "crs": "EPSG:3857",
+      "height": 256,
+      "nodata": -9999.0,
+      "origin": {
+        "x": 0,
+        "y": 0
+      },
+      "path": "data/processed/tmc_tiles/synthetic_r0000_c0000.tif",
+      "pixel_size_x": 5.0,
+      "pixel_size_y": 5.0,
+      "preprocessing_config": "none",
+      "reference_data_available": false,
+      "row": 0,
+      "schema_version": "1.0",
+      "source_checksum": "0d631d295b203d7153e9693e62ffe48148f4e3a8619f257d86b3ea72e11fb523",
+      "source_id": "synthetic",
+      "source_path": "/tmp/lhm-m1-83x4wxx6/synthetic.tif",
+      "tile_id": "synthetic_r0000_c0000",
+      "transform": [
+        5.0,
+        0.0,
+        1000.0,
+        0.0,
+        -5.0,
+        2000.0
+      ],
+      "width": 256,
+      "window": [
+        0,
+        0,
+        256,
+        256
+      ]
+    }
+  ]
+}

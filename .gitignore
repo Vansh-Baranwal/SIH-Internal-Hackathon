@@ -9,3 +9,4 @@ results/experiments/*
 blender/*.blend1
 !**/README.md
 !**/.gitkeep
+.claude
