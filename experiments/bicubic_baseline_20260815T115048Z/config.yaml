@@ -1,0 +1,5 @@
+manifest_path: data/training_pairs/manifest.json
+split: val
+timestamp: 20260815T115048Z
+status: blocked_no_validated_pairs
+metrics_type: production

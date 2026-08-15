@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "pairs": [],
+  "spatial_test_region": null,
+  "total_pairs": 0,
+  "train_count": 0,
+  "val_count": 0,
+  "test_count": 0,
+  "status": "blocked_no_validated_pairs",
+  "failure_reasons": [
+    "No validated TMC-to-HR spatial correspondences were present in the Phase 4 manifest."
+  ]
+}

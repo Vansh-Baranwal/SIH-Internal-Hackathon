@@ -1,0 +1,3653 @@
+{
+  "dataset": "TMCORTHO5-1",
+  "source": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1",
+  "records": [
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/1/TMCORTHOCH_1_1.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0016656056804734056,
+        0.0,
+        338.677834,
+        0.0,
+        -0.0016714074346255129,
+        -2.628832
+      ],
+      "pixel_size_x_m": 0.0016656056804734056,
+      "pixel_size_y_m": 0.0016714074346255129,
+      "nodata": null,
+      "bounds": {
+        "west": 338.677834,
+        "south": -8.087648681486925,
+        "east": 338.8194104828403,
+        "north": -2.628832
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/1/TMCORTHOCH_1_2.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0016656056804734056,
+        0.0,
+        338.8194104828403,
+        0.0,
+        -0.0016714074346255129,
+        -2.628832
+      ],
+      "pixel_size_x_m": 0.0016656056804734056,
+      "pixel_size_y_m": 0.0016714074346255129,
+      "nodata": null,
+      "bounds": {
+        "west": 338.8194104828403,
+        "south": -8.087648681486925,
+        "east": 338.96098696568055,
+        "north": -2.628832
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/1/TMCORTHOCH_1_3.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0016656056804734056,
+        0.0,
+        338.9609869656805,
+        0.0,
+        -0.0016714074346255129,
+        -2.628832
+      ],
+      "pixel_size_x_m": 0.0016656056804734056,
+      "pixel_size_y_m": 0.0016714074346255129,
+      "nodata": null,
+      "bounds": {
+        "west": 338.9609869656805,
+        "south": -8.087648681486925,
+        "east": 339.10256344852075,
+        "north": -2.628832
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/1/TMCORTHOCH_1_4.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0016656056804734056,
+        0.0,
+        339.10256344852075,
+        0.0,
+        -0.0016714074346255129,
+        -2.628832
+      ],
+      "pixel_size_x_m": 0.0016656056804734056,
+      "pixel_size_y_m": 0.0016714074346255129,
+      "nodata": null,
+      "bounds": {
+        "west": 339.10256344852075,
+        "south": -8.087648681486925,
+        "east": 339.244139931361,
+        "north": -2.628832
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/1/TMCORTHOCH_1_5.tif",
+      "file_size_mb": 1.02,
+      "width": 82,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0016656056804734056,
+        0.0,
+        339.24413993136096,
+        0.0,
+        -0.0016714074346255129,
+        -2.628832
+      ],
+      "pixel_size_x_m": 0.0016656056804734056,
+      "pixel_size_y_m": 0.0016714074346255129,
+      "nodata": null,
+      "bounds": {
+        "west": 339.24413993136096,
+        "south": -8.087648681486925,
+        "east": 339.3807195971598,
+        "north": -2.628832
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/1/TMCORTHOCH_2_1.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0016656056804734056,
+        0.0,
+        338.677834,
+        0.0,
+        -0.0016714074346255129,
+        -8.087648681486925
+      ],
+      "pixel_size_x_m": 0.0016656056804734056,
+      "pixel_size_y_m": 0.0016714074346255129,
+      "nodata": null,
+      "bounds": {
+        "west": 338.677834,
+        "south": -13.546465362973851,
+        "east": 338.8194104828403,
+        "north": -8.087648681486925
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/1/TMCORTHOCH_2_2.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0016656056804734056,
+        0.0,
+        338.8194104828403,
+        0.0,
+        -0.0016714074346255129,
+        -8.087648681486925
+      ],
+      "pixel_size_x_m": 0.0016656056804734056,
+      "pixel_size_y_m": 0.0016714074346255129,
+      "nodata": null,
+      "bounds": {
+        "west": 338.8194104828403,
+        "south": -13.546465362973851,
+        "east": 338.96098696568055,
+        "north": -8.087648681486925
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/1/TMCORTHOCH_2_3.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0016656056804734056,
+        0.0,
+        338.9609869656805,
+        0.0,
+        -0.0016714074346255129,
+        -8.087648681486925
+      ],
+      "pixel_size_x_m": 0.0016656056804734056,
+      "pixel_size_y_m": 0.0016714074346255129,
+      "nodata": null,
+      "bounds": {
+        "west": 338.9609869656805,
+        "south": -13.546465362973851,
+        "east": 339.10256344852075,
+        "north": -8.087648681486925
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/1/TMCORTHOCH_2_4.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0016656056804734056,
+        0.0,
+        339.10256344852075,
+        0.0,
+        -0.0016714074346255129,
+        -8.087648681486925
+      ],
+      "pixel_size_x_m": 0.0016656056804734056,
+      "pixel_size_y_m": 0.0016714074346255129,
+      "nodata": null,
+      "bounds": {
+        "west": 339.10256344852075,
+        "south": -13.546465362973851,
+        "east": 339.244139931361,
+        "north": -8.087648681486925
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/1/TMCORTHOCH_2_5.tif",
+      "file_size_mb": 1.02,
+      "width": 82,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0016656056804734056,
+        0.0,
+        339.24413993136096,
+        0.0,
+        -0.0016714074346255129,
+        -8.087648681486925
+      ],
+      "pixel_size_x_m": 0.0016656056804734056,
+      "pixel_size_y_m": 0.0016714074346255129,
+      "nodata": null,
+      "bounds": {
+        "west": 339.24413993136096,
+        "south": -13.546465362973851,
+        "east": 339.3807195971598,
+        "north": -8.087648681486925
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/1/TMCORTHOCH_3_1.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0016656056804734056,
+        0.0,
+        338.677834,
+        0.0,
+        -0.0016714074346255129,
+        -13.546465362973851
+      ],
+      "pixel_size_x_m": 0.0016656056804734056,
+      "pixel_size_y_m": 0.0016714074346255129,
+      "nodata": null,
+      "bounds": {
+        "west": 338.677834,
+        "south": -19.005282044460778,
+        "east": 338.8194104828403,
+        "north": -13.546465362973851
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/1/TMCORTHOCH_3_2.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0016656056804734056,
+        0.0,
+        338.8194104828403,
+        0.0,
+        -0.0016714074346255129,
+        -13.546465362973851
+      ],
+      "pixel_size_x_m": 0.0016656056804734056,
+      "pixel_size_y_m": 0.0016714074346255129,
+      "nodata": null,
+      "bounds": {
+        "west": 338.8194104828403,
+        "south": -19.005282044460778,
+        "east": 338.96098696568055,
+        "north": -13.546465362973851
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/1/TMCORTHOCH_3_3.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0016656056804734056,
+        0.0,
+        338.9609869656805,
+        0.0,
+        -0.0016714074346255129,
+        -13.546465362973851
+      ],
+      "pixel_size_x_m": 0.0016656056804734056,
+      "pixel_size_y_m": 0.0016714074346255129,
+      "nodata": null,
+      "bounds": {
+        "west": 338.9609869656805,
+        "south": -19.005282044460778,
+        "east": 339.10256344852075,
+        "north": -13.546465362973851
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/1/TMCORTHOCH_3_4.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0016656056804734056,
+        0.0,
+        339.10256344852075,
+        0.0,
+        -0.0016714074346255129,
+        -13.546465362973851
+      ],
+      "pixel_size_x_m": 0.0016656056804734056,
+      "pixel_size_y_m": 0.0016714074346255129,
+      "nodata": null,
+      "bounds": {
+        "west": 339.10256344852075,
+        "south": -19.005282044460778,
+        "east": 339.244139931361,
+        "north": -13.546465362973851
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/1/TMCORTHOCH_3_5.tif",
+      "file_size_mb": 1.02,
+      "width": 82,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0016656056804734056,
+        0.0,
+        339.24413993136096,
+        0.0,
+        -0.0016714074346255129,
+        -13.546465362973851
+      ],
+      "pixel_size_x_m": 0.0016656056804734056,
+      "pixel_size_y_m": 0.0016714074346255129,
+      "nodata": null,
+      "bounds": {
+        "west": 339.24413993136096,
+        "south": -19.005282044460778,
+        "east": 339.3807195971598,
+        "north": -13.546465362973851
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/1/TMCORTHOCH_4_1.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0016656056804734056,
+        0.0,
+        338.677834,
+        0.0,
+        -0.0016714074346255129,
+        -19.005282044460774
+      ],
+      "pixel_size_x_m": 0.0016656056804734056,
+      "pixel_size_y_m": 0.0016714074346255129,
+      "nodata": null,
+      "bounds": {
+        "west": 338.677834,
+        "south": -24.4640987259477,
+        "east": 338.8194104828403,
+        "north": -19.005282044460774
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/1/TMCORTHOCH_4_2.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0016656056804734056,
+        0.0,
+        338.8194104828403,
+        0.0,
+        -0.0016714074346255129,
+        -19.005282044460774
+      ],
+      "pixel_size_x_m": 0.0016656056804734056,
+      "pixel_size_y_m": 0.0016714074346255129,
+      "nodata": null,
+      "bounds": {
+        "west": 338.8194104828403,
+        "south": -24.4640987259477,
+        "east": 338.96098696568055,
+        "north": -19.005282044460774
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/1/TMCORTHOCH_4_3.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0016656056804734056,
+        0.0,
+        338.9609869656805,
+        0.0,
+        -0.0016714074346255129,
+        -19.005282044460774
+      ],
+      "pixel_size_x_m": 0.0016656056804734056,
+      "pixel_size_y_m": 0.0016714074346255129,
+      "nodata": null,
+      "bounds": {
+        "west": 338.9609869656805,
+        "south": -24.4640987259477,
+        "east": 339.10256344852075,
+        "north": -19.005282044460774
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/1/TMCORTHOCH_4_4.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0016656056804734056,
+        0.0,
+        339.10256344852075,
+        0.0,
+        -0.0016714074346255129,
+        -19.005282044460774
+      ],
+      "pixel_size_x_m": 0.0016656056804734056,
+      "pixel_size_y_m": 0.0016714074346255129,
+      "nodata": null,
+      "bounds": {
+        "west": 339.10256344852075,
+        "south": -24.4640987259477,
+        "east": 339.244139931361,
+        "north": -19.005282044460774
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/1/TMCORTHOCH_4_5.tif",
+      "file_size_mb": 1.02,
+      "width": 82,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0016656056804734056,
+        0.0,
+        339.24413993136096,
+        0.0,
+        -0.0016714074346255129,
+        -19.005282044460774
+      ],
+      "pixel_size_x_m": 0.0016656056804734056,
+      "pixel_size_y_m": 0.0016714074346255129,
+      "nodata": null,
+      "bounds": {
+        "west": 339.24413993136096,
+        "south": -24.4640987259477,
+        "east": 339.3807195971598,
+        "north": -19.005282044460774
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/1/TMCORTHOCH_5_1.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3265,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0016656056804734056,
+        0.0,
+        338.677834,
+        0.0,
+        -0.0016714074346255129,
+        -24.4640987259477
+      ],
+      "pixel_size_x_m": 0.0016656056804734056,
+      "pixel_size_y_m": 0.0016714074346255129,
+      "nodata": null,
+      "bounds": {
+        "west": 338.677834,
+        "south": -29.921244,
+        "east": 338.8194104828403,
+        "north": -24.4640987259477
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/1/TMCORTHOCH_5_2.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3265,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0016656056804734056,
+        0.0,
+        338.8194104828403,
+        0.0,
+        -0.0016714074346255129,
+        -24.4640987259477
+      ],
+      "pixel_size_x_m": 0.0016656056804734056,
+      "pixel_size_y_m": 0.0016714074346255129,
+      "nodata": null,
+      "bounds": {
+        "west": 338.8194104828403,
+        "south": -29.921244,
+        "east": 338.96098696568055,
+        "north": -24.4640987259477
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/1/TMCORTHOCH_5_3.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3265,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0016656056804734056,
+        0.0,
+        338.9609869656805,
+        0.0,
+        -0.0016714074346255129,
+        -24.4640987259477
+      ],
+      "pixel_size_x_m": 0.0016656056804734056,
+      "pixel_size_y_m": 0.0016714074346255129,
+      "nodata": null,
+      "bounds": {
+        "west": 338.9609869656805,
+        "south": -29.921244,
+        "east": 339.10256344852075,
+        "north": -24.4640987259477
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/1/TMCORTHOCH_5_4.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3265,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0016656056804734056,
+        0.0,
+        339.10256344852075,
+        0.0,
+        -0.0016714074346255129,
+        -24.4640987259477
+      ],
+      "pixel_size_x_m": 0.0016656056804734056,
+      "pixel_size_y_m": 0.0016714074346255129,
+      "nodata": null,
+      "bounds": {
+        "west": 339.10256344852075,
+        "south": -29.921244,
+        "east": 339.244139931361,
+        "north": -24.4640987259477
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/1/TMCORTHOCH_5_5.tif",
+      "file_size_mb": 1.02,
+      "width": 82,
+      "height": 3265,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0016656056804734056,
+        0.0,
+        339.24413993136096,
+        0.0,
+        -0.0016714074346255129,
+        -24.4640987259477
+      ],
+      "pixel_size_x_m": 0.0016656056804734056,
+      "pixel_size_y_m": 0.0016714074346255129,
+      "nodata": null,
+      "bounds": {
+        "west": 339.24413993136096,
+        "south": -29.921244,
+        "east": 339.3807195971598,
+        "north": -24.4640987259477
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_01_01.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.677834,
+        0.0,
+        -0.0008357037173127564,
+        -2.628832
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.677834,
+        "south": -5.358240340743462,
+        "east": 338.74862224142015,
+        "north": -2.628832
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_01_02.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.74862224142015,
+        0.0,
+        -0.0008357037173127564,
+        -2.628832
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.74862224142015,
+        "south": -5.358240340743462,
+        "east": 338.8194104828403,
+        "north": -2.628832
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_01_03.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.8194104828403,
+        0.0,
+        -0.0008357037173127564,
+        -2.628832
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.8194104828403,
+        "south": -5.358240340743462,
+        "east": 338.8901987242604,
+        "north": -2.628832
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_01_04.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.89019872426036,
+        0.0,
+        -0.0008357037173127564,
+        -2.628832
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.89019872426036,
+        "south": -5.358240340743462,
+        "east": 338.9609869656805,
+        "north": -2.628832
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_01_05.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.9609869656805,
+        0.0,
+        -0.0008357037173127564,
+        -2.628832
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.9609869656805,
+        "south": -5.358240340743462,
+        "east": 339.0317752071006,
+        "north": -2.628832
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_01_06.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.0317752071006,
+        0.0,
+        -0.0008357037173127564,
+        -2.628832
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.0317752071006,
+        "south": -5.358240340743462,
+        "east": 339.10256344852075,
+        "north": -2.628832
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_01_07.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.10256344852075,
+        0.0,
+        -0.0008357037173127564,
+        -2.628832
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.10256344852075,
+        "south": -5.358240340743462,
+        "east": 339.1733516899409,
+        "north": -2.628832
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_01_08.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.17335168994083,
+        0.0,
+        -0.0008357037173127564,
+        -2.628832
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.17335168994083,
+        "south": -5.358240340743462,
+        "east": 339.24413993136096,
+        "north": -2.628832
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_01_09.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.24413993136096,
+        0.0,
+        -0.0008357037173127564,
+        -2.628832
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.24413993136096,
+        "south": -5.358240340743462,
+        "east": 339.3149281727811,
+        "north": -2.628832
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_01_10.tif",
+      "file_size_mb": 1.0,
+      "width": 80,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.3149281727811,
+        0.0,
+        -0.0008357037173127564,
+        -2.628832
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.3149281727811,
+        "south": -5.358240340743462,
+        "east": 339.38155240000003,
+        "north": -2.628832
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_02_01.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.677834,
+        0.0,
+        -0.0008357037173127564,
+        -5.358240340743462
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.677834,
+        "south": -8.087648681486925,
+        "east": 338.74862224142015,
+        "north": -5.358240340743462
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_02_02.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.74862224142015,
+        0.0,
+        -0.0008357037173127564,
+        -5.358240340743462
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.74862224142015,
+        "south": -8.087648681486925,
+        "east": 338.8194104828403,
+        "north": -5.358240340743462
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_02_03.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.8194104828403,
+        0.0,
+        -0.0008357037173127564,
+        -5.358240340743462
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.8194104828403,
+        "south": -8.087648681486925,
+        "east": 338.8901987242604,
+        "north": -5.358240340743462
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_02_04.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.89019872426036,
+        0.0,
+        -0.0008357037173127564,
+        -5.358240340743462
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.89019872426036,
+        "south": -8.087648681486925,
+        "east": 338.9609869656805,
+        "north": -5.358240340743462
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_02_05.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.9609869656805,
+        0.0,
+        -0.0008357037173127564,
+        -5.358240340743462
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.9609869656805,
+        "south": -8.087648681486925,
+        "east": 339.0317752071006,
+        "north": -5.358240340743462
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_02_06.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.0317752071006,
+        0.0,
+        -0.0008357037173127564,
+        -5.358240340743462
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.0317752071006,
+        "south": -8.087648681486925,
+        "east": 339.10256344852075,
+        "north": -5.358240340743462
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_02_07.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.10256344852075,
+        0.0,
+        -0.0008357037173127564,
+        -5.358240340743462
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.10256344852075,
+        "south": -8.087648681486925,
+        "east": 339.1733516899409,
+        "north": -5.358240340743462
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_02_08.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.17335168994083,
+        0.0,
+        -0.0008357037173127564,
+        -5.358240340743462
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.17335168994083,
+        "south": -8.087648681486925,
+        "east": 339.24413993136096,
+        "north": -5.358240340743462
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_02_09.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.24413993136096,
+        0.0,
+        -0.0008357037173127564,
+        -5.358240340743462
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.24413993136096,
+        "south": -8.087648681486925,
+        "east": 339.3149281727811,
+        "north": -5.358240340743462
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_02_10.tif",
+      "file_size_mb": 1.0,
+      "width": 80,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.3149281727811,
+        0.0,
+        -0.0008357037173127564,
+        -5.358240340743462
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.3149281727811,
+        "south": -8.087648681486925,
+        "east": 339.38155240000003,
+        "north": -5.358240340743462
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_03_01.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.677834,
+        0.0,
+        -0.0008357037173127564,
+        -8.087648681486925
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.677834,
+        "south": -10.817057022230388,
+        "east": 338.74862224142015,
+        "north": -8.087648681486925
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_03_02.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.74862224142015,
+        0.0,
+        -0.0008357037173127564,
+        -8.087648681486925
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.74862224142015,
+        "south": -10.817057022230388,
+        "east": 338.8194104828403,
+        "north": -8.087648681486925
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_03_03.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.8194104828403,
+        0.0,
+        -0.0008357037173127564,
+        -8.087648681486925
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.8194104828403,
+        "south": -10.817057022230388,
+        "east": 338.8901987242604,
+        "north": -8.087648681486925
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_03_04.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.89019872426036,
+        0.0,
+        -0.0008357037173127564,
+        -8.087648681486925
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.89019872426036,
+        "south": -10.817057022230388,
+        "east": 338.9609869656805,
+        "north": -8.087648681486925
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_03_05.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.9609869656805,
+        0.0,
+        -0.0008357037173127564,
+        -8.087648681486925
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.9609869656805,
+        "south": -10.817057022230388,
+        "east": 339.0317752071006,
+        "north": -8.087648681486925
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_03_06.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.0317752071006,
+        0.0,
+        -0.0008357037173127564,
+        -8.087648681486925
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.0317752071006,
+        "south": -10.817057022230388,
+        "east": 339.10256344852075,
+        "north": -8.087648681486925
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_03_07.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.10256344852075,
+        0.0,
+        -0.0008357037173127564,
+        -8.087648681486925
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.10256344852075,
+        "south": -10.817057022230388,
+        "east": 339.1733516899409,
+        "north": -8.087648681486925
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_03_08.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.17335168994083,
+        0.0,
+        -0.0008357037173127564,
+        -8.087648681486925
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.17335168994083,
+        "south": -10.817057022230388,
+        "east": 339.24413993136096,
+        "north": -8.087648681486925
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_03_09.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.24413993136096,
+        0.0,
+        -0.0008357037173127564,
+        -8.087648681486925
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.24413993136096,
+        "south": -10.817057022230388,
+        "east": 339.3149281727811,
+        "north": -8.087648681486925
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_03_10.tif",
+      "file_size_mb": 1.0,
+      "width": 80,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.3149281727811,
+        0.0,
+        -0.0008357037173127564,
+        -8.087648681486925
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.3149281727811,
+        "south": -10.817057022230388,
+        "east": 339.38155240000003,
+        "north": -8.087648681486925
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_04_01.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.677834,
+        0.0,
+        -0.0008357037173127564,
+        -10.817057022230387
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.677834,
+        "south": -13.54646536297385,
+        "east": 338.74862224142015,
+        "north": -10.817057022230387
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_04_02.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.74862224142015,
+        0.0,
+        -0.0008357037173127564,
+        -10.817057022230387
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.74862224142015,
+        "south": -13.54646536297385,
+        "east": 338.8194104828403,
+        "north": -10.817057022230387
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_04_03.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.8194104828403,
+        0.0,
+        -0.0008357037173127564,
+        -10.817057022230387
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.8194104828403,
+        "south": -13.54646536297385,
+        "east": 338.8901987242604,
+        "north": -10.817057022230387
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_04_04.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.89019872426036,
+        0.0,
+        -0.0008357037173127564,
+        -10.817057022230387
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.89019872426036,
+        "south": -13.54646536297385,
+        "east": 338.9609869656805,
+        "north": -10.817057022230387
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_04_05.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.9609869656805,
+        0.0,
+        -0.0008357037173127564,
+        -10.817057022230387
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.9609869656805,
+        "south": -13.54646536297385,
+        "east": 339.0317752071006,
+        "north": -10.817057022230387
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_04_06.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.0317752071006,
+        0.0,
+        -0.0008357037173127564,
+        -10.817057022230387
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.0317752071006,
+        "south": -13.54646536297385,
+        "east": 339.10256344852075,
+        "north": -10.817057022230387
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_04_07.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.10256344852075,
+        0.0,
+        -0.0008357037173127564,
+        -10.817057022230387
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.10256344852075,
+        "south": -13.54646536297385,
+        "east": 339.1733516899409,
+        "north": -10.817057022230387
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_04_08.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.17335168994083,
+        0.0,
+        -0.0008357037173127564,
+        -10.817057022230387
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.17335168994083,
+        "south": -13.54646536297385,
+        "east": 339.24413993136096,
+        "north": -10.817057022230387
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_04_09.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.24413993136096,
+        0.0,
+        -0.0008357037173127564,
+        -10.817057022230387
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.24413993136096,
+        "south": -13.54646536297385,
+        "east": 339.3149281727811,
+        "north": -10.817057022230387
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_04_10.tif",
+      "file_size_mb": 1.0,
+      "width": 80,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.3149281727811,
+        0.0,
+        -0.0008357037173127564,
+        -10.817057022230387
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.3149281727811,
+        "south": -13.54646536297385,
+        "east": 339.38155240000003,
+        "north": -10.817057022230387
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_05_01.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.677834,
+        0.0,
+        -0.0008357037173127564,
+        -13.546465362973851
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.677834,
+        "south": -16.275873703717313,
+        "east": 338.74862224142015,
+        "north": -13.546465362973851
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_05_02.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.74862224142015,
+        0.0,
+        -0.0008357037173127564,
+        -13.546465362973851
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.74862224142015,
+        "south": -16.275873703717313,
+        "east": 338.8194104828403,
+        "north": -13.546465362973851
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_05_03.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.8194104828403,
+        0.0,
+        -0.0008357037173127564,
+        -13.546465362973851
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.8194104828403,
+        "south": -16.275873703717313,
+        "east": 338.8901987242604,
+        "north": -13.546465362973851
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_05_04.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.89019872426036,
+        0.0,
+        -0.0008357037173127564,
+        -13.546465362973851
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.89019872426036,
+        "south": -16.275873703717313,
+        "east": 338.9609869656805,
+        "north": -13.546465362973851
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_05_05.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.9609869656805,
+        0.0,
+        -0.0008357037173127564,
+        -13.546465362973851
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.9609869656805,
+        "south": -16.275873703717313,
+        "east": 339.0317752071006,
+        "north": -13.546465362973851
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_05_06.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.0317752071006,
+        0.0,
+        -0.0008357037173127564,
+        -13.546465362973851
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.0317752071006,
+        "south": -16.275873703717313,
+        "east": 339.10256344852075,
+        "north": -13.546465362973851
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_05_07.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.10256344852075,
+        0.0,
+        -0.0008357037173127564,
+        -13.546465362973851
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.10256344852075,
+        "south": -16.275873703717313,
+        "east": 339.1733516899409,
+        "north": -13.546465362973851
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_05_08.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.17335168994083,
+        0.0,
+        -0.0008357037173127564,
+        -13.546465362973851
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.17335168994083,
+        "south": -16.275873703717313,
+        "east": 339.24413993136096,
+        "north": -13.546465362973851
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_05_09.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.24413993136096,
+        0.0,
+        -0.0008357037173127564,
+        -13.546465362973851
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.24413993136096,
+        "south": -16.275873703717313,
+        "east": 339.3149281727811,
+        "north": -13.546465362973851
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_05_10.tif",
+      "file_size_mb": 1.0,
+      "width": 80,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.3149281727811,
+        0.0,
+        -0.0008357037173127564,
+        -13.546465362973851
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.3149281727811,
+        "south": -16.275873703717313,
+        "east": 339.38155240000003,
+        "north": -13.546465362973851
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_06_01.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.677834,
+        0.0,
+        -0.0008357037173127564,
+        -16.275873703717313
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.677834,
+        "south": -19.005282044460774,
+        "east": 338.74862224142015,
+        "north": -16.275873703717313
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_06_02.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.74862224142015,
+        0.0,
+        -0.0008357037173127564,
+        -16.275873703717313
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.74862224142015,
+        "south": -19.005282044460774,
+        "east": 338.8194104828403,
+        "north": -16.275873703717313
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_06_03.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.8194104828403,
+        0.0,
+        -0.0008357037173127564,
+        -16.275873703717313
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.8194104828403,
+        "south": -19.005282044460774,
+        "east": 338.8901987242604,
+        "north": -16.275873703717313
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_06_04.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.89019872426036,
+        0.0,
+        -0.0008357037173127564,
+        -16.275873703717313
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.89019872426036,
+        "south": -19.005282044460774,
+        "east": 338.9609869656805,
+        "north": -16.275873703717313
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_06_05.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.9609869656805,
+        0.0,
+        -0.0008357037173127564,
+        -16.275873703717313
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.9609869656805,
+        "south": -19.005282044460774,
+        "east": 339.0317752071006,
+        "north": -16.275873703717313
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_06_06.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.0317752071006,
+        0.0,
+        -0.0008357037173127564,
+        -16.275873703717313
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.0317752071006,
+        "south": -19.005282044460774,
+        "east": 339.10256344852075,
+        "north": -16.275873703717313
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_06_07.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.10256344852075,
+        0.0,
+        -0.0008357037173127564,
+        -16.275873703717313
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.10256344852075,
+        "south": -19.005282044460774,
+        "east": 339.1733516899409,
+        "north": -16.275873703717313
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_06_08.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.17335168994083,
+        0.0,
+        -0.0008357037173127564,
+        -16.275873703717313
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.17335168994083,
+        "south": -19.005282044460774,
+        "east": 339.24413993136096,
+        "north": -16.275873703717313
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_06_09.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.24413993136096,
+        0.0,
+        -0.0008357037173127564,
+        -16.275873703717313
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.24413993136096,
+        "south": -19.005282044460774,
+        "east": 339.3149281727811,
+        "north": -16.275873703717313
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_06_10.tif",
+      "file_size_mb": 1.0,
+      "width": 80,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.3149281727811,
+        0.0,
+        -0.0008357037173127564,
+        -16.275873703717313
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.3149281727811,
+        "south": -19.005282044460774,
+        "east": 339.38155240000003,
+        "north": -16.275873703717313
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_07_01.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.677834,
+        0.0,
+        -0.0008357037173127564,
+        -19.005282044460774
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.677834,
+        "south": -21.734690385204235,
+        "east": 338.74862224142015,
+        "north": -19.005282044460774
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_07_02.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.74862224142015,
+        0.0,
+        -0.0008357037173127564,
+        -19.005282044460774
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.74862224142015,
+        "south": -21.734690385204235,
+        "east": 338.8194104828403,
+        "north": -19.005282044460774
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_07_03.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.8194104828403,
+        0.0,
+        -0.0008357037173127564,
+        -19.005282044460774
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.8194104828403,
+        "south": -21.734690385204235,
+        "east": 338.8901987242604,
+        "north": -19.005282044460774
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_07_04.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.89019872426036,
+        0.0,
+        -0.0008357037173127564,
+        -19.005282044460774
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.89019872426036,
+        "south": -21.734690385204235,
+        "east": 338.9609869656805,
+        "north": -19.005282044460774
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_07_05.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.9609869656805,
+        0.0,
+        -0.0008357037173127564,
+        -19.005282044460774
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.9609869656805,
+        "south": -21.734690385204235,
+        "east": 339.0317752071006,
+        "north": -19.005282044460774
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_07_06.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.0317752071006,
+        0.0,
+        -0.0008357037173127564,
+        -19.005282044460774
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.0317752071006,
+        "south": -21.734690385204235,
+        "east": 339.10256344852075,
+        "north": -19.005282044460774
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_07_07.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.10256344852075,
+        0.0,
+        -0.0008357037173127564,
+        -19.005282044460774
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.10256344852075,
+        "south": -21.734690385204235,
+        "east": 339.1733516899409,
+        "north": -19.005282044460774
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_07_08.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.17335168994083,
+        0.0,
+        -0.0008357037173127564,
+        -19.005282044460774
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.17335168994083,
+        "south": -21.734690385204235,
+        "east": 339.24413993136096,
+        "north": -19.005282044460774
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_07_09.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.24413993136096,
+        0.0,
+        -0.0008357037173127564,
+        -19.005282044460774
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.24413993136096,
+        "south": -21.734690385204235,
+        "east": 339.3149281727811,
+        "north": -19.005282044460774
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_07_10.tif",
+      "file_size_mb": 1.0,
+      "width": 80,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.3149281727811,
+        0.0,
+        -0.0008357037173127564,
+        -19.005282044460774
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.3149281727811,
+        "south": -21.734690385204235,
+        "east": 339.38155240000003,
+        "north": -19.005282044460774
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_08_01.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.677834,
+        0.0,
+        -0.0008357037173127564,
+        -21.734690385204235
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.677834,
+        "south": -24.464098725947697,
+        "east": 338.74862224142015,
+        "north": -21.734690385204235
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_08_02.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.74862224142015,
+        0.0,
+        -0.0008357037173127564,
+        -21.734690385204235
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.74862224142015,
+        "south": -24.464098725947697,
+        "east": 338.8194104828403,
+        "north": -21.734690385204235
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_08_03.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.8194104828403,
+        0.0,
+        -0.0008357037173127564,
+        -21.734690385204235
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.8194104828403,
+        "south": -24.464098725947697,
+        "east": 338.8901987242604,
+        "north": -21.734690385204235
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_08_04.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.89019872426036,
+        0.0,
+        -0.0008357037173127564,
+        -21.734690385204235
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.89019872426036,
+        "south": -24.464098725947697,
+        "east": 338.9609869656805,
+        "north": -21.734690385204235
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_08_05.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.9609869656805,
+        0.0,
+        -0.0008357037173127564,
+        -21.734690385204235
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.9609869656805,
+        "south": -24.464098725947697,
+        "east": 339.0317752071006,
+        "north": -21.734690385204235
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_08_06.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.0317752071006,
+        0.0,
+        -0.0008357037173127564,
+        -21.734690385204235
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.0317752071006,
+        "south": -24.464098725947697,
+        "east": 339.10256344852075,
+        "north": -21.734690385204235
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_08_07.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.10256344852075,
+        0.0,
+        -0.0008357037173127564,
+        -21.734690385204235
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.10256344852075,
+        "south": -24.464098725947697,
+        "east": 339.1733516899409,
+        "north": -21.734690385204235
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_08_08.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.17335168994083,
+        0.0,
+        -0.0008357037173127564,
+        -21.734690385204235
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.17335168994083,
+        "south": -24.464098725947697,
+        "east": 339.24413993136096,
+        "north": -21.734690385204235
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_08_09.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.24413993136096,
+        0.0,
+        -0.0008357037173127564,
+        -21.734690385204235
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.24413993136096,
+        "south": -24.464098725947697,
+        "east": 339.3149281727811,
+        "north": -21.734690385204235
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_08_10.tif",
+      "file_size_mb": 1.0,
+      "width": 80,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.3149281727811,
+        0.0,
+        -0.0008357037173127564,
+        -21.734690385204235
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.3149281727811,
+        "south": -24.464098725947697,
+        "east": 339.38155240000003,
+        "north": -21.734690385204235
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_09_01.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.677834,
+        0.0,
+        -0.0008357037173127564,
+        -24.4640987259477
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.677834,
+        "south": -27.19350706669116,
+        "east": 338.74862224142015,
+        "north": -24.4640987259477
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_09_02.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.74862224142015,
+        0.0,
+        -0.0008357037173127564,
+        -24.4640987259477
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.74862224142015,
+        "south": -27.19350706669116,
+        "east": 338.8194104828403,
+        "north": -24.4640987259477
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_09_03.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.8194104828403,
+        0.0,
+        -0.0008357037173127564,
+        -24.4640987259477
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.8194104828403,
+        "south": -27.19350706669116,
+        "east": 338.8901987242604,
+        "north": -24.4640987259477
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_09_04.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.89019872426036,
+        0.0,
+        -0.0008357037173127564,
+        -24.4640987259477
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.89019872426036,
+        "south": -27.19350706669116,
+        "east": 338.9609869656805,
+        "north": -24.4640987259477
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_09_05.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.9609869656805,
+        0.0,
+        -0.0008357037173127564,
+        -24.4640987259477
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.9609869656805,
+        "south": -27.19350706669116,
+        "east": 339.0317752071006,
+        "north": -24.4640987259477
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_09_06.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.0317752071006,
+        0.0,
+        -0.0008357037173127564,
+        -24.4640987259477
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.0317752071006,
+        "south": -27.19350706669116,
+        "east": 339.10256344852075,
+        "north": -24.4640987259477
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_09_07.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.10256344852075,
+        0.0,
+        -0.0008357037173127564,
+        -24.4640987259477
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.10256344852075,
+        "south": -27.19350706669116,
+        "east": 339.1733516899409,
+        "north": -24.4640987259477
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_09_08.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.17335168994083,
+        0.0,
+        -0.0008357037173127564,
+        -24.4640987259477
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.17335168994083,
+        "south": -27.19350706669116,
+        "east": 339.24413993136096,
+        "north": -24.4640987259477
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_09_09.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.24413993136096,
+        0.0,
+        -0.0008357037173127564,
+        -24.4640987259477
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.24413993136096,
+        "south": -27.19350706669116,
+        "east": 339.3149281727811,
+        "north": -24.4640987259477
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_09_10.tif",
+      "file_size_mb": 1.0,
+      "width": 80,
+      "height": 3266,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.3149281727811,
+        0.0,
+        -0.0008357037173127564,
+        -24.4640987259477
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.3149281727811,
+        "south": -27.19350706669116,
+        "east": 339.38155240000003,
+        "north": -24.4640987259477
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_10_01.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3264,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.677834,
+        0.0,
+        -0.0008357037173127564,
+        -27.19350706669116
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.677834,
+        "south": -29.921243999999998,
+        "east": 338.74862224142015,
+        "north": -27.19350706669116
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_10_02.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3264,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.74862224142015,
+        0.0,
+        -0.0008357037173127564,
+        -27.19350706669116
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.74862224142015,
+        "south": -29.921243999999998,
+        "east": 338.8194104828403,
+        "north": -27.19350706669116
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_10_03.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3264,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.8194104828403,
+        0.0,
+        -0.0008357037173127564,
+        -27.19350706669116
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.8194104828403,
+        "south": -29.921243999999998,
+        "east": 338.8901987242604,
+        "north": -27.19350706669116
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_10_04.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3264,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.89019872426036,
+        0.0,
+        -0.0008357037173127564,
+        -27.19350706669116
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.89019872426036,
+        "south": -29.921243999999998,
+        "east": 338.9609869656805,
+        "north": -27.19350706669116
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_10_05.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3264,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        338.9609869656805,
+        0.0,
+        -0.0008357037173127564,
+        -27.19350706669116
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 338.9609869656805,
+        "south": -29.921243999999998,
+        "east": 339.0317752071006,
+        "north": -27.19350706669116
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_10_06.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3264,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.0317752071006,
+        0.0,
+        -0.0008357037173127564,
+        -27.19350706669116
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.0317752071006,
+        "south": -29.921243999999998,
+        "east": 339.10256344852075,
+        "north": -27.19350706669116
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_10_07.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3264,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.10256344852075,
+        0.0,
+        -0.0008357037173127564,
+        -27.19350706669116
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.10256344852075,
+        "south": -29.921243999999998,
+        "east": 339.1733516899409,
+        "north": -27.19350706669116
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_10_08.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3264,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.17335168994083,
+        0.0,
+        -0.0008357037173127564,
+        -27.19350706669116
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.17335168994083,
+        "south": -29.921243999999998,
+        "east": 339.24413993136096,
+        "north": -27.19350706669116
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_10_09.tif",
+      "file_size_mb": 1.06,
+      "width": 85,
+      "height": 3264,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.24413993136096,
+        0.0,
+        -0.0008357037173127564,
+        -27.19350706669116
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.24413993136096,
+        "south": -29.921243999999998,
+        "east": 339.3149281727811,
+        "north": -27.19350706669116
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCORTHO5-1/TMCORTHO5-1/TMCORTHOCH_10_10.tif",
+      "file_size_mb": 1.0,
+      "width": 80,
+      "height": 3264,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.0008328028402367028,
+        0.0,
+        339.3149281727811,
+        0.0,
+        -0.0008357037173127564,
+        -27.19350706669116
+      ],
+      "pixel_size_x_m": 0.0008328028402367028,
+      "pixel_size_y_m": 0.0008357037173127564,
+      "nodata": null,
+      "bounds": {
+        "west": 339.3149281727811,
+        "south": -29.921243999999998,
+        "east": 339.38155240000003,
+        "north": -27.19350706669116
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    }
+  ],
+  "summary": {
+    "total_files": 125,
+    "total_size_mb": 131.7,
+    "unique_dtypes": [
+      "float32"
+    ],
+    "unique_crs_values": [
+      "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]"
+    ],
+    "pixel_size_range": {
+      "min_m": 0.0008328028402367028,
+      "max_m": 0.0016714074346255129
+    },
+    "any_missing_crs": false,
+    "any_missing_transform": false,
+    "bounds": {
+      "west": 338.677834,
+      "south": -29.921244,
+      "east": 339.38155240000003,
+      "north": -2.628832
+    }
+  }
+}

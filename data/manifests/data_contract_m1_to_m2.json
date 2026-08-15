@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "produced_by": "Member 1",
+  "consumed_by": "Member 2",
+  "training_pairs_root": "data/training_pairs/",
+  "manifest_path": "data/training_pairs/manifest.json",
+  "lr_pixel_size_m": null,
+  "hr_pixel_size_m": null,
+  "scale_factor": null,
+  "crs": null,
+  "normalisation": {
+    "method": "percentile_clip_to_01",
+    "stats_path": "data/manifests/normalisation_stats.json"
+  },
+  "split_counts": {
+    "train": 0,
+    "val": 0,
+    "test": 0
+  },
+  "qa_report_path": "data/manifests/qa_report.json",
+  "checksums_path": "data/manifests/checksums.json",
+  "status": "blocked_no_validated_pairs",
+  "ready_for_m2": false,
+  "limitation": "No validated TMC-to-HR spatial correspondences are currently available."
+}

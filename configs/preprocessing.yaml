@@ -1,0 +1,22 @@
+# Member 1 preprocessing configuration; values are recorded from Phase 1 inspection.
+tiling:
+  tile_size_px: 256
+  overlap_px: 32
+  min_valid_fraction: 0.80
+radiometric:
+  normalize: true
+  clip_percentile_low: 2
+  clip_percentile_high: 98
+  output_dtype: "float32"
+spatial_split:
+  # The reference tiles overlap one contiguous lunar region. These bounds are
+  # the measured union; spatial holdout boundaries must be selected in Phase 2
+  # after tile footprints are catalogued.
+  train_region:
+    bounds: [338.677833776, -29.921244, 339.38155240000003, -2.628831987]
+  val_region: null
+  test_region: null
+  measured_crs:
+    tmc: "SelenoGraphic geographic"
+    hr: "unnamed equirectangular metre projection"
+nodata_value: -9999.0
