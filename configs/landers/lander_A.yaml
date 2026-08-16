@@ -1,3 +1,8 @@
 name: Lander A
 mass_kg: 1500
 max_slope_deg: 10
+footprint_radius_m: 5.0
+landing_zone_size_m: 24.0
+min_clearance_m: 1.0
+max_roughness_m: 1.5
+min_confidence: 0.6
