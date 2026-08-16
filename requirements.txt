@@ -10,3 +10,4 @@ pytest
 jsonschema
 matplotlib
 tqdm
+affine
