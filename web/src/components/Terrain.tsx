@@ -1,5 +1,4 @@
-import React from 'react';
-import { TargetSite } from '../types/api';
+import type { TargetSite } from '../types/api';
 
 interface TerrainProps {
   primaryTarget: TargetSite | null;

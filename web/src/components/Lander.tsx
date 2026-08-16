@@ -1,8 +1,8 @@
-import React, { useRef, useState, useEffect } from 'react';
+import { useRef } from 'react';
 import { useGLTF } from '@react-three/drei';
 import { useFrame } from '@react-three/fiber';
 import { getAssetUrl } from '../api/client';
-import { Trajectory, TrajectoryPoint } from '../types/api';
+import type { Trajectory, TrajectoryPoint } from '../types/api';
 import * as THREE from 'three';
 
 interface LanderProps {

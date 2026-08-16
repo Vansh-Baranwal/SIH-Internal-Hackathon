@@ -1,5 +1,4 @@
-import React from 'react';
-import { TargetSite, TrajectoryPoint } from '../types/api';
+import type { TargetSite, TrajectoryPoint } from '../types/api';
 
 interface HUDProps {
   telemetry: TrajectoryPoint | null;

@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Environment } from '@react-three/drei';
 import { fetchMissionData } from './api/client';
-import { MissionData, TrajectoryPoint, TargetSite } from './types/api';
+import type { MissionData, TrajectoryPoint, TargetSite } from './types/api';
 import { Terrain } from './components/Terrain';
 import { Lander } from './components/Lander';
 import { HUD } from './components/HUD';
