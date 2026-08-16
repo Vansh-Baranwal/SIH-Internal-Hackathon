@@ -13,7 +13,7 @@ export function UploadTMC({ onUploadComplete }: { onUploadComplete: () => void }
 
     try {
       // Must use explicit localhost if running separated, or relative if proxied
-      const res = await fetch('http://localhost:8000/api/upload_tmc', {
+      const res = await fetch('http://localhost:8000/api/pipeline/run', {
         method: 'POST',
         body: formData,
       });
@@ -30,7 +30,7 @@ export function UploadTMC({ onUploadComplete }: { onUploadComplete: () => void }
     return (
       <div className="absolute inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 text-white font-mono p-10">
         <div className="max-w-4xl w-full">
-          <h2 className="text-3xl text-cyan-400 mb-4">M2: Lunar CSASR Super-Resolution Complete</h2>
+          <h2 className="text-3xl text-cyan-400 mb-4">Lunar Hazard Mapper Pipeline Complete</h2>
           <div className="grid grid-cols-2 gap-4">
             <div>
               <p>Original TMC (1x)</p>
@@ -43,7 +43,7 @@ export function UploadTMC({ onUploadComplete }: { onUploadComplete: () => void }
           </div>
           <div className="mt-4 p-4 bg-gray-900 border border-gray-700">
             <p>Inference Time: {result.inference_time_ms} ms</p>
-            <p>Status: {result.ready_for_m3 ? 'READY FOR M3 HAZARD DETECTION' : 'ERROR'}</p>
+            <p>Status: {result.pipeline.m6.status === "success" ? "TRAJECTORY FEASIBLE" : "NO TRAJECTORY"}</p>
           </div>
           <button 
             className="mt-6 px-6 py-2 bg-cyan-600 hover:bg-cyan-500 text-white"

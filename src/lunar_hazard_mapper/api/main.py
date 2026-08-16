@@ -128,3 +128,28 @@ async def upload_tmc(file: UploadFile = File(...)):
         "ready_for_m3": True,
         "sr_filepath": str(output_path)
     })
+
+from lunar_hazard_mapper.api.pipeline import run_dual_pipeline
+
+@app.post("/api/pipeline/run")
+def run_full_pipeline(scene_id: str = "01_01"):
+    "\""
+    Executes the Dual-Path Pipeline (M1-M6) using the matching TMCORTHO and TMCDTM
+    datasets. Returns the execution status and statistics for each module.
+    "\""
+    try:
+        stats = run_dual_pipeline(scene_id)
+        
+        # Include fields the frontend currently expects:
+        return {
+            "status": "success", 
+            "pipeline": stats,
+            "original_url": f"/static/uploads/TMCORTHOCH_{scene_id}.tif",
+            "sr_url": f"/static/sr/sr_{scene_id}.tif",
+            "inference_time_ms": stats.get("m2", {}).get("runtime_s", 0) * 1000,
+            "scale_factor": "32x Dual-Path",
+            "ready_for_m3": True
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
