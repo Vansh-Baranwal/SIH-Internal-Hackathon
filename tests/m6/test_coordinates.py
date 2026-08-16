@@ -2,14 +2,14 @@ import pytest
 import math
 from lunar_hazard_mapper.m6_planner.coordinate import CoordinateTransform
 
-def test_blender_to_local_identity():
+def test_world_to_local_identity():
     transform = CoordinateTransform(origin_lat=0.0, origin_lon=0.0)
     
     local_coords = (10.0, -5.0, 3.14)
-    blender_coords = transform.local_to_blender(*local_coords)
-    assert blender_coords == local_coords
+    world_coords = transform.local_to_world(*local_coords)
+    assert world_coords == local_coords
     
-    recovered = transform.blender_to_local(*blender_coords)
+    recovered = transform.world_to_local(*world_coords)
     assert recovered == local_coords
 
 def test_geographic_to_local_origin():

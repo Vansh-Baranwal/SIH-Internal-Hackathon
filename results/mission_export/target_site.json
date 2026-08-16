@@ -1,0 +1,63 @@
+{
+  "siteId": "r180_c156",
+  "x": 156.0,
+  "y": 180.0,
+  "score": 0.9714016179009508,
+  "feasible": true,
+  "reasons": [],
+  "metrics": {
+    "zone_summary": {
+      "site_id": "r180_c156",
+      "in_bounds": true,
+      "row_bounds": [
+        168,
+        192
+      ],
+      "col_bounds": [
+        144,
+        168
+      ],
+      "size_m": {
+        "x": 24.0,
+        "y": 24.0
+      },
+      "pixel_count": 576,
+      "max_slope_deg": 1.8446699082036884,
+      "mean_slope_deg": 1.114435520534479,
+      "max_risk": 0.05923685380787905,
+      "mean_risk": 0.016677857884452422,
+      "unsafe_fraction": 0.0,
+      "min_confidence": 1.0,
+      "max_roughness_m": 0.045561042433884334,
+      "mean_roughness_m": 0.02762383263637179,
+      "max_crater_risk": 0.09492031493084846,
+      "max_boulder_risk": 0.1431953628658665,
+      "crater_count": 0,
+      "boulder_count": 0
+    },
+    "footprint_summary": {
+      "site_id": "r180_c156",
+      "in_bounds": true,
+      "safe": true,
+      "passes": {
+        "slope": true,
+        "hazards": true,
+        "confidence": true,
+        "roughness": true,
+        "boulder_clearance": true
+      },
+      "checked_pixel_count": 81,
+      "max_slope_deg": 1.3374342019857755,
+      "max_risk": 0.014584728420744927,
+      "mean_risk": 0.013113420235231273,
+      "min_confidence": 1.0,
+      "max_roughness_m": 0.03305775184524358,
+      "unsafe_pixel_count": 0,
+      "minimum_boulder_clearance_m": 10.975784888835664,
+      "crater_intersects_footprint": false
+    },
+    "rank": 1,
+    "row": 180,
+    "col": 156
+  }
+}

@@ -42,17 +42,17 @@ class CoordinateTransform:
         # Approximate lunar radius in meters
         self.R_MOON = 1737400.0
 
-    def local_to_blender(self, x: float, y: float, z: float) -> Tuple[float, float, float]:
+    def local_to_world(self, x: float, y: float, z: float) -> Tuple[float, float, float]:
         """
-        Converts local simulation coordinates to Blender world coordinates.
-        In this convention, Blender's Z is also UP, and X/Y match East/North directly.
-        If Blender scale is 1:1, this is an identity transformation.
+        Converts local simulation coordinates to global world coordinates for the renderer.
+        In this convention, Z is UP, and X/Y match East/North directly.
+        If scale is 1:1, this is an identity transformation.
         """
         return x, y, z
     
-    def blender_to_local(self, bx: float, by: float, bz: float) -> Tuple[float, float, float]:
+    def world_to_local(self, bx: float, by: float, bz: float) -> Tuple[float, float, float]:
         """
-        Converts Blender world coordinates to local simulation coordinates.
+        Converts world coordinates from the frontend to local simulation coordinates.
         """
         return bx, by, bz
 

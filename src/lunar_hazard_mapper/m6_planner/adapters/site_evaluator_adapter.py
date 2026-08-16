@@ -4,30 +4,30 @@ from lunar_hazard_mapper.m6_planner.coordinate import CoordinateTransform
 
 class SiteEvaluatorAdapter:
     """
-    Adapter bridging Blender click interactions (world coordinates) to M5's site evaluation logic.
+    Adapter bridging frontend interactions (world coordinates) to M5's site evaluation logic.
     M6 does not evaluate slope/crater/boulders; it delegates this to M5 via this interface.
     """
     
     def __init__(self, coordinate_transform: CoordinateTransform):
         self.transform = coordinate_transform
 
-    def evaluate_blender_click(self, bx: float, by: float, bz: float, lander: LanderProfile, site_id: str = "CLICKED_SITE") -> SiteResult:
+    def evaluate_interaction(self, wx: float, wy: float, wz: float, lander: LanderProfile, site_id: str = "CLICKED_SITE") -> SiteResult:
         """
-        Takes a Blender world coordinate from a mouse click, transforms it to the 
+        Takes a world coordinate from a frontend interaction, transforms it to the 
         local simulation coordinate frame, and queries the M5 evaluator.
         
         Args:
-            bx: Blender X coordinate
-            by: Blender Y coordinate
-            bz: Blender Z coordinate
+            wx: World X coordinate
+            wy: World Y coordinate
+            wz: World Z coordinate
             lander: The current lander profile
             site_id: Identifier for the generated site
             
         Returns:
             SiteResult containing the safety/feasibility evaluated by M5.
         """
-        # 1. Transform Blender world coordinates to Local simulation coordinates
-        local_x, local_y, local_z = self.transform.blender_to_local(bx, by, bz)
+        # 1. Transform world coordinates to Local simulation coordinates
+        local_x, local_y, local_z = self.transform.world_to_local(wx, wy, wz)
         
         # 2. Call M5 internal evaluator (Mocked for now)
         return self._call_m5_evaluator(local_x, local_y, lander, site_id)
