@@ -2,7 +2,7 @@ import pytest
 
 from src.lunar_hazard_mapper.m5_lander.profile import LanderProfile, load_lander_profile
 from src.lunar_hazard_mapper.m5_lander.site_generator import generate_candidate_sites
-from synthetic.terrain.flat import generate_flat_terrain
+from tests.m4.fixtures.flat import generate_flat_terrain
 
 
 def test_load_existing_lander_profile():
