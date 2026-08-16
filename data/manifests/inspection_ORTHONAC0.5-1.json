@@ -1,0 +1,4118 @@
+{
+  "dataset": "ORTHONAC0.5-1",
+  "source": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1",
+  "records": [
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/1/ORTHONAC0.5-1_1_1.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        1.9997974478428195,
+        0.0,
+        4737648.5,
+        0.0,
+        -1.999634101719722,
+        -89822.5
+      ],
+      "pixel_size_x_m": 1.9997974478428195,
+      "pixel_size_y_m": 1.999634101719722,
+      "nodata": null,
+      "bounds": {
+        "west": 4737648.5,
+        "south": -90368.40010976949,
+        "east": 4738636.399939234,
+        "north": -89822.5
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/1/ORTHONAC0.5-1_1_2.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        1.9997974478428195,
+        0.0,
+        4738636.399939234,
+        0.0,
+        -1.999634101719722,
+        -89822.5
+      ],
+      "pixel_size_x_m": 1.9997974478428195,
+      "pixel_size_y_m": 1.999634101719722,
+      "nodata": null,
+      "bounds": {
+        "west": 4738636.399939234,
+        "south": -90368.40010976949,
+        "east": 4739624.299878469,
+        "north": -89822.5
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/1/ORTHONAC0.5-1_1_3.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        1.9997974478428195,
+        0.0,
+        4739624.299878469,
+        0.0,
+        -1.999634101719722,
+        -89822.5
+      ],
+      "pixel_size_x_m": 1.9997974478428195,
+      "pixel_size_y_m": 1.999634101719722,
+      "nodata": null,
+      "bounds": {
+        "west": 4739624.299878469,
+        "south": -90368.40010976949,
+        "east": 4740612.199817703,
+        "north": -89822.5
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/1/ORTHONAC0.5-1_1_4.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        1.9997974478428195,
+        0.0,
+        4740612.199817703,
+        0.0,
+        -1.999634101719722,
+        -89822.5
+      ],
+      "pixel_size_x_m": 1.9997974478428195,
+      "pixel_size_y_m": 1.999634101719722,
+      "nodata": null,
+      "bounds": {
+        "west": 4740612.199817703,
+        "south": -90368.40010976949,
+        "east": 4741600.0997569375,
+        "north": -89822.5
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/1/ORTHONAC0.5-1_1_5.tif",
+      "file_size_mb": 0.51,
+      "width": 492,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        1.9997974478428195,
+        0.0,
+        4741600.0997569375,
+        0.0,
+        -1.999634101719722,
+        -89822.5
+      ],
+      "pixel_size_x_m": 1.9997974478428195,
+      "pixel_size_y_m": 1.999634101719722,
+      "nodata": null,
+      "bounds": {
+        "west": 4741600.0997569375,
+        "south": -90368.40010976949,
+        "east": 4742584.000101276,
+        "north": -89822.5
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/1/ORTHONAC0.5-1_2_1.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        1.9997974478428195,
+        0.0,
+        4737648.5,
+        0.0,
+        -1.999634101719722,
+        -90368.40010976949
+      ],
+      "pixel_size_x_m": 1.9997974478428195,
+      "pixel_size_y_m": 1.999634101719722,
+      "nodata": null,
+      "bounds": {
+        "west": 4737648.5,
+        "south": -90914.30021953897,
+        "east": 4738636.399939234,
+        "north": -90368.40010976949
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/1/ORTHONAC0.5-1_2_2.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        1.9997974478428195,
+        0.0,
+        4738636.399939234,
+        0.0,
+        -1.999634101719722,
+        -90368.40010976949
+      ],
+      "pixel_size_x_m": 1.9997974478428195,
+      "pixel_size_y_m": 1.999634101719722,
+      "nodata": null,
+      "bounds": {
+        "west": 4738636.399939234,
+        "south": -90914.30021953897,
+        "east": 4739624.299878469,
+        "north": -90368.40010976949
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/1/ORTHONAC0.5-1_2_3.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        1.9997974478428195,
+        0.0,
+        4739624.299878469,
+        0.0,
+        -1.999634101719722,
+        -90368.40010976949
+      ],
+      "pixel_size_x_m": 1.9997974478428195,
+      "pixel_size_y_m": 1.999634101719722,
+      "nodata": null,
+      "bounds": {
+        "west": 4739624.299878469,
+        "south": -90914.30021953897,
+        "east": 4740612.199817703,
+        "north": -90368.40010976949
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/1/ORTHONAC0.5-1_2_4.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        1.9997974478428195,
+        0.0,
+        4740612.199817703,
+        0.0,
+        -1.999634101719722,
+        -90368.40010976949
+      ],
+      "pixel_size_x_m": 1.9997974478428195,
+      "pixel_size_y_m": 1.999634101719722,
+      "nodata": null,
+      "bounds": {
+        "west": 4740612.199817703,
+        "south": -90914.30021953897,
+        "east": 4741600.0997569375,
+        "north": -90368.40010976949
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/1/ORTHONAC0.5-1_2_5.tif",
+      "file_size_mb": 0.51,
+      "width": 492,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        1.9997974478428195,
+        0.0,
+        4741600.0997569375,
+        0.0,
+        -1.999634101719722,
+        -90368.40010976949
+      ],
+      "pixel_size_x_m": 1.9997974478428195,
+      "pixel_size_y_m": 1.999634101719722,
+      "nodata": null,
+      "bounds": {
+        "west": 4741600.0997569375,
+        "south": -90914.30021953897,
+        "east": 4742584.000101276,
+        "north": -90368.40010976949
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/1/ORTHONAC0.5-1_3_1.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        1.9997974478428195,
+        0.0,
+        4737648.5,
+        0.0,
+        -1.999634101719722,
+        -90914.30021953897
+      ],
+      "pixel_size_x_m": 1.9997974478428195,
+      "pixel_size_y_m": 1.999634101719722,
+      "nodata": null,
+      "bounds": {
+        "west": 4737648.5,
+        "south": -91460.20032930846,
+        "east": 4738636.399939234,
+        "north": -90914.30021953897
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/1/ORTHONAC0.5-1_3_2.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        1.9997974478428195,
+        0.0,
+        4738636.399939234,
+        0.0,
+        -1.999634101719722,
+        -90914.30021953897
+      ],
+      "pixel_size_x_m": 1.9997974478428195,
+      "pixel_size_y_m": 1.999634101719722,
+      "nodata": null,
+      "bounds": {
+        "west": 4738636.399939234,
+        "south": -91460.20032930846,
+        "east": 4739624.299878469,
+        "north": -90914.30021953897
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/1/ORTHONAC0.5-1_3_3.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        1.9997974478428195,
+        0.0,
+        4739624.299878469,
+        0.0,
+        -1.999634101719722,
+        -90914.30021953897
+      ],
+      "pixel_size_x_m": 1.9997974478428195,
+      "pixel_size_y_m": 1.999634101719722,
+      "nodata": null,
+      "bounds": {
+        "west": 4739624.299878469,
+        "south": -91460.20032930846,
+        "east": 4740612.199817703,
+        "north": -90914.30021953897
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/1/ORTHONAC0.5-1_3_4.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        1.9997974478428195,
+        0.0,
+        4740612.199817703,
+        0.0,
+        -1.999634101719722,
+        -90914.30021953897
+      ],
+      "pixel_size_x_m": 1.9997974478428195,
+      "pixel_size_y_m": 1.999634101719722,
+      "nodata": null,
+      "bounds": {
+        "west": 4740612.199817703,
+        "south": -91460.20032930846,
+        "east": 4741600.0997569375,
+        "north": -90914.30021953897
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/1/ORTHONAC0.5-1_3_5.tif",
+      "file_size_mb": 0.51,
+      "width": 492,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        1.9997974478428195,
+        0.0,
+        4741600.0997569375,
+        0.0,
+        -1.999634101719722,
+        -90914.30021953897
+      ],
+      "pixel_size_x_m": 1.9997974478428195,
+      "pixel_size_y_m": 1.999634101719722,
+      "nodata": null,
+      "bounds": {
+        "west": 4741600.0997569375,
+        "south": -91460.20032930846,
+        "east": 4742584.000101276,
+        "north": -90914.30021953897
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/1/ORTHONAC0.5-1_4_1.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        1.9997974478428195,
+        0.0,
+        4737648.5,
+        0.0,
+        -1.999634101719722,
+        -91460.20032930846
+      ],
+      "pixel_size_x_m": 1.9997974478428195,
+      "pixel_size_y_m": 1.999634101719722,
+      "nodata": null,
+      "bounds": {
+        "west": 4737648.5,
+        "south": -92006.10043907794,
+        "east": 4738636.399939234,
+        "north": -91460.20032930846
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/1/ORTHONAC0.5-1_4_2.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        1.9997974478428195,
+        0.0,
+        4738636.399939234,
+        0.0,
+        -1.999634101719722,
+        -91460.20032930846
+      ],
+      "pixel_size_x_m": 1.9997974478428195,
+      "pixel_size_y_m": 1.999634101719722,
+      "nodata": null,
+      "bounds": {
+        "west": 4738636.399939234,
+        "south": -92006.10043907794,
+        "east": 4739624.299878469,
+        "north": -91460.20032930846
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/1/ORTHONAC0.5-1_4_3.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        1.9997974478428195,
+        0.0,
+        4739624.299878469,
+        0.0,
+        -1.999634101719722,
+        -91460.20032930846
+      ],
+      "pixel_size_x_m": 1.9997974478428195,
+      "pixel_size_y_m": 1.999634101719722,
+      "nodata": null,
+      "bounds": {
+        "west": 4739624.299878469,
+        "south": -92006.10043907794,
+        "east": 4740612.199817703,
+        "north": -91460.20032930846
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/1/ORTHONAC0.5-1_4_4.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        1.9997974478428195,
+        0.0,
+        4740612.199817703,
+        0.0,
+        -1.999634101719722,
+        -91460.20032930846
+      ],
+      "pixel_size_x_m": 1.9997974478428195,
+      "pixel_size_y_m": 1.999634101719722,
+      "nodata": null,
+      "bounds": {
+        "west": 4740612.199817703,
+        "south": -92006.10043907794,
+        "east": 4741600.0997569375,
+        "north": -91460.20032930846
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/1/ORTHONAC0.5-1_4_5.tif",
+      "file_size_mb": 0.51,
+      "width": 492,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        1.9997974478428195,
+        0.0,
+        4741600.0997569375,
+        0.0,
+        -1.999634101719722,
+        -91460.20032930846
+      ],
+      "pixel_size_x_m": 1.9997974478428195,
+      "pixel_size_y_m": 1.999634101719722,
+      "nodata": null,
+      "bounds": {
+        "west": 4741600.0997569375,
+        "south": -92006.10043907794,
+        "east": 4742584.000101276,
+        "north": -91460.20032930846
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/1/ORTHONAC0.5-1_5_1.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        1.9997974478428195,
+        0.0,
+        4737648.5,
+        0.0,
+        -1.999634101719722,
+        -92006.10043907794
+      ],
+      "pixel_size_x_m": 1.9997974478428195,
+      "pixel_size_y_m": 1.999634101719722,
+      "nodata": null,
+      "bounds": {
+        "west": 4737648.5,
+        "south": -92552.00054884743,
+        "east": 4738636.399939234,
+        "north": -92006.10043907794
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/1/ORTHONAC0.5-1_5_2.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        1.9997974478428195,
+        0.0,
+        4738636.399939234,
+        0.0,
+        -1.999634101719722,
+        -92006.10043907794
+      ],
+      "pixel_size_x_m": 1.9997974478428195,
+      "pixel_size_y_m": 1.999634101719722,
+      "nodata": null,
+      "bounds": {
+        "west": 4738636.399939234,
+        "south": -92552.00054884743,
+        "east": 4739624.299878469,
+        "north": -92006.10043907794
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/1/ORTHONAC0.5-1_5_3.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        1.9997974478428195,
+        0.0,
+        4739624.299878469,
+        0.0,
+        -1.999634101719722,
+        -92006.10043907794
+      ],
+      "pixel_size_x_m": 1.9997974478428195,
+      "pixel_size_y_m": 1.999634101719722,
+      "nodata": null,
+      "bounds": {
+        "west": 4739624.299878469,
+        "south": -92552.00054884743,
+        "east": 4740612.199817703,
+        "north": -92006.10043907794
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/1/ORTHONAC0.5-1_5_4.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        1.9997974478428195,
+        0.0,
+        4740612.199817703,
+        0.0,
+        -1.999634101719722,
+        -92006.10043907794
+      ],
+      "pixel_size_x_m": 1.9997974478428195,
+      "pixel_size_y_m": 1.999634101719722,
+      "nodata": null,
+      "bounds": {
+        "west": 4740612.199817703,
+        "south": -92552.00054884743,
+        "east": 4741600.0997569375,
+        "north": -92006.10043907794
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/1/ORTHONAC0.5-1_5_5.tif",
+      "file_size_mb": 0.52,
+      "width": 492,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        1.9997974478428195,
+        0.0,
+        4741600.0997569375,
+        0.0,
+        -1.999634101719722,
+        -92006.10043907794
+      ],
+      "pixel_size_x_m": 1.9997974478428195,
+      "pixel_size_y_m": 1.999634101719722,
+      "nodata": null,
+      "bounds": {
+        "west": 4741600.0997569375,
+        "south": -92552.00054884743,
+        "east": 4742584.000101276,
+        "north": -92006.10043907794
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/1/ORTHONAC0.5-1_6_1.tif",
+      "file_size_mb": 0.0,
+      "width": 494,
+      "height": 1,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        1.9997974478428195,
+        0.0,
+        4737648.5,
+        0.0,
+        -1.999634101719722,
+        -92552.00054884743
+      ],
+      "pixel_size_x_m": 1.9997974478428195,
+      "pixel_size_y_m": 1.999634101719722,
+      "nodata": null,
+      "bounds": {
+        "west": 4737648.5,
+        "south": -92554.00018294915,
+        "east": 4738636.399939234,
+        "north": -92552.00054884743
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/1/ORTHONAC0.5-1_6_2.tif",
+      "file_size_mb": 0.0,
+      "width": 494,
+      "height": 1,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        1.9997974478428195,
+        0.0,
+        4738636.399939234,
+        0.0,
+        -1.999634101719722,
+        -92552.00054884743
+      ],
+      "pixel_size_x_m": 1.9997974478428195,
+      "pixel_size_y_m": 1.999634101719722,
+      "nodata": null,
+      "bounds": {
+        "west": 4738636.399939234,
+        "south": -92554.00018294915,
+        "east": 4739624.299878469,
+        "north": -92552.00054884743
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/1/ORTHONAC0.5-1_6_3.tif",
+      "file_size_mb": 0.0,
+      "width": 494,
+      "height": 1,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        1.9997974478428195,
+        0.0,
+        4739624.299878469,
+        0.0,
+        -1.999634101719722,
+        -92552.00054884743
+      ],
+      "pixel_size_x_m": 1.9997974478428195,
+      "pixel_size_y_m": 1.999634101719722,
+      "nodata": null,
+      "bounds": {
+        "west": 4739624.299878469,
+        "south": -92554.00018294915,
+        "east": 4740612.199817703,
+        "north": -92552.00054884743
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/1/ORTHONAC0.5-1_6_4.tif",
+      "file_size_mb": 0.0,
+      "width": 494,
+      "height": 1,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        1.9997974478428195,
+        0.0,
+        4740612.199817703,
+        0.0,
+        -1.999634101719722,
+        -92552.00054884743
+      ],
+      "pixel_size_x_m": 1.9997974478428195,
+      "pixel_size_y_m": 1.999634101719722,
+      "nodata": null,
+      "bounds": {
+        "west": 4740612.199817703,
+        "south": -92554.00018294915,
+        "east": 4741600.0997569375,
+        "north": -92552.00054884743
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/1/ORTHONAC0.5-1_6_5.tif",
+      "file_size_mb": 0.0,
+      "width": 492,
+      "height": 1,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        1.9997974478428195,
+        0.0,
+        4741600.0997569375,
+        0.0,
+        -1.999634101719722,
+        -92552.00054884743
+      ],
+      "pixel_size_x_m": 1.9997974478428195,
+      "pixel_size_y_m": 1.999634101719722,
+      "nodata": null,
+      "bounds": {
+        "west": 4741600.0997569375,
+        "south": -92554.00018294915,
+        "east": 4742584.000101276,
+        "north": -92552.00054884743
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1.tif",
+      "file_size_mb": 12.88,
+      "width": 4937,
+      "height": 2733,
+      "count": 1,
+      "dtype": "uint8",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4737648.5,
+        0.0,
+        -0.999817050859861,
+        -89822.5
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4737648.5,
+        "south": -92555.0,
+        "east": 4742585.0,
+        "north": -89822.5
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_01_01.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4737648.5,
+        0.0,
+        -0.999817050859861,
+        -89822.5
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4737648.5,
+        "south": -90095.45005488474,
+        "east": 4738142.449969617,
+        "north": -89822.5
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_01_02.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4738142.449969617,
+        0.0,
+        -0.999817050859861,
+        -89822.5
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4738142.449969617,
+        "south": -90095.45005488474,
+        "east": 4738636.399939233,
+        "north": -89822.5
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_01_03.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4738636.399939234,
+        0.0,
+        -0.999817050859861,
+        -89822.5
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4738636.399939234,
+        "south": -90095.45005488474,
+        "east": 4739130.349908851,
+        "north": -89822.5
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_01_04.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4739130.349908851,
+        0.0,
+        -0.999817050859861,
+        -89822.5
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4739130.349908851,
+        "south": -90095.45005488474,
+        "east": 4739624.299878468,
+        "north": -89822.5
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_01_05.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4739624.299878469,
+        0.0,
+        -0.999817050859861,
+        -89822.5
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4739624.299878469,
+        "south": -90095.45005488474,
+        "east": 4740118.249848085,
+        "north": -89822.5
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_01_06.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4740118.249848085,
+        0.0,
+        -0.999817050859861,
+        -89822.5
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4740118.249848085,
+        "south": -90095.45005488474,
+        "east": 4740612.199817702,
+        "north": -89822.5
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_01_07.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4740612.199817703,
+        0.0,
+        -0.999817050859861,
+        -89822.5
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4740612.199817703,
+        "south": -90095.45005488474,
+        "east": 4741106.14978732,
+        "north": -89822.5
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_01_08.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4741106.14978732,
+        0.0,
+        -0.999817050859861,
+        -89822.5
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4741106.14978732,
+        "south": -90095.45005488474,
+        "east": 4741600.099756937,
+        "north": -89822.5
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_01_09.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4741600.0997569375,
+        0.0,
+        -0.999817050859861,
+        -89822.5
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4741600.0997569375,
+        "south": -90095.45005488474,
+        "east": 4742094.049726554,
+        "north": -89822.5
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_01_10.tif",
+      "file_size_mb": 0.51,
+      "width": 491,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4742094.049726554,
+        0.0,
+        -0.999817050859861,
+        -89822.5
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4742094.049726554,
+        "south": -90095.45005488474,
+        "east": 4742585.0,
+        "north": -89822.5
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_02_01.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4737648.5,
+        0.0,
+        -0.999817050859861,
+        -90095.45005488474
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4737648.5,
+        "south": -90368.40010976949,
+        "east": 4738142.449969617,
+        "north": -90095.45005488474
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_02_02.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4738142.449969617,
+        0.0,
+        -0.999817050859861,
+        -90095.45005488474
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4738142.449969617,
+        "south": -90368.40010976949,
+        "east": 4738636.399939233,
+        "north": -90095.45005488474
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_02_03.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4738636.399939234,
+        0.0,
+        -0.999817050859861,
+        -90095.45005488474
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4738636.399939234,
+        "south": -90368.40010976949,
+        "east": 4739130.349908851,
+        "north": -90095.45005488474
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_02_04.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4739130.349908851,
+        0.0,
+        -0.999817050859861,
+        -90095.45005488474
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4739130.349908851,
+        "south": -90368.40010976949,
+        "east": 4739624.299878468,
+        "north": -90095.45005488474
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_02_05.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4739624.299878469,
+        0.0,
+        -0.999817050859861,
+        -90095.45005488474
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4739624.299878469,
+        "south": -90368.40010976949,
+        "east": 4740118.249848085,
+        "north": -90095.45005488474
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_02_06.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4740118.249848085,
+        0.0,
+        -0.999817050859861,
+        -90095.45005488474
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4740118.249848085,
+        "south": -90368.40010976949,
+        "east": 4740612.199817702,
+        "north": -90095.45005488474
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_02_07.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4740612.199817703,
+        0.0,
+        -0.999817050859861,
+        -90095.45005488474
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4740612.199817703,
+        "south": -90368.40010976949,
+        "east": 4741106.14978732,
+        "north": -90095.45005488474
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_02_08.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4741106.14978732,
+        0.0,
+        -0.999817050859861,
+        -90095.45005488474
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4741106.14978732,
+        "south": -90368.40010976949,
+        "east": 4741600.099756937,
+        "north": -90095.45005488474
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_02_09.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4741600.0997569375,
+        0.0,
+        -0.999817050859861,
+        -90095.45005488474
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4741600.0997569375,
+        "south": -90368.40010976949,
+        "east": 4742094.049726554,
+        "north": -90095.45005488474
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_02_10.tif",
+      "file_size_mb": 0.51,
+      "width": 491,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4742094.049726554,
+        0.0,
+        -0.999817050859861,
+        -90095.45005488474
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4742094.049726554,
+        "south": -90368.40010976949,
+        "east": 4742585.0,
+        "north": -90095.45005488474
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_03_01.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4737648.5,
+        0.0,
+        -0.999817050859861,
+        -90368.40010976949
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4737648.5,
+        "south": -90641.35016465423,
+        "east": 4738142.449969617,
+        "north": -90368.40010976949
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_03_02.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4738142.449969617,
+        0.0,
+        -0.999817050859861,
+        -90368.40010976949
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4738142.449969617,
+        "south": -90641.35016465423,
+        "east": 4738636.399939233,
+        "north": -90368.40010976949
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_03_03.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4738636.399939234,
+        0.0,
+        -0.999817050859861,
+        -90368.40010976949
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4738636.399939234,
+        "south": -90641.35016465423,
+        "east": 4739130.349908851,
+        "north": -90368.40010976949
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_03_04.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4739130.349908851,
+        0.0,
+        -0.999817050859861,
+        -90368.40010976949
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4739130.349908851,
+        "south": -90641.35016465423,
+        "east": 4739624.299878468,
+        "north": -90368.40010976949
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_03_05.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4739624.299878469,
+        0.0,
+        -0.999817050859861,
+        -90368.40010976949
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4739624.299878469,
+        "south": -90641.35016465423,
+        "east": 4740118.249848085,
+        "north": -90368.40010976949
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_03_06.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4740118.249848085,
+        0.0,
+        -0.999817050859861,
+        -90368.40010976949
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4740118.249848085,
+        "south": -90641.35016465423,
+        "east": 4740612.199817702,
+        "north": -90368.40010976949
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_03_07.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4740612.199817703,
+        0.0,
+        -0.999817050859861,
+        -90368.40010976949
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4740612.199817703,
+        "south": -90641.35016465423,
+        "east": 4741106.14978732,
+        "north": -90368.40010976949
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_03_08.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4741106.14978732,
+        0.0,
+        -0.999817050859861,
+        -90368.40010976949
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4741106.14978732,
+        "south": -90641.35016465423,
+        "east": 4741600.099756937,
+        "north": -90368.40010976949
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_03_09.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4741600.0997569375,
+        0.0,
+        -0.999817050859861,
+        -90368.40010976949
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4741600.0997569375,
+        "south": -90641.35016465423,
+        "east": 4742094.049726554,
+        "north": -90368.40010976949
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_03_10.tif",
+      "file_size_mb": 0.51,
+      "width": 491,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4742094.049726554,
+        0.0,
+        -0.999817050859861,
+        -90368.40010976949
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4742094.049726554,
+        "south": -90641.35016465423,
+        "east": 4742585.0,
+        "north": -90368.40010976949
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_04_01.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4737648.5,
+        0.0,
+        -0.999817050859861,
+        -90641.35016465423
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4737648.5,
+        "south": -90914.30021953897,
+        "east": 4738142.449969617,
+        "north": -90641.35016465423
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_04_02.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4738142.449969617,
+        0.0,
+        -0.999817050859861,
+        -90641.35016465423
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4738142.449969617,
+        "south": -90914.30021953897,
+        "east": 4738636.399939233,
+        "north": -90641.35016465423
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_04_03.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4738636.399939234,
+        0.0,
+        -0.999817050859861,
+        -90641.35016465423
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4738636.399939234,
+        "south": -90914.30021953897,
+        "east": 4739130.349908851,
+        "north": -90641.35016465423
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_04_04.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4739130.349908851,
+        0.0,
+        -0.999817050859861,
+        -90641.35016465423
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4739130.349908851,
+        "south": -90914.30021953897,
+        "east": 4739624.299878468,
+        "north": -90641.35016465423
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_04_05.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4739624.299878469,
+        0.0,
+        -0.999817050859861,
+        -90641.35016465423
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4739624.299878469,
+        "south": -90914.30021953897,
+        "east": 4740118.249848085,
+        "north": -90641.35016465423
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_04_06.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4740118.249848085,
+        0.0,
+        -0.999817050859861,
+        -90641.35016465423
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4740118.249848085,
+        "south": -90914.30021953897,
+        "east": 4740612.199817702,
+        "north": -90641.35016465423
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_04_07.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4740612.199817703,
+        0.0,
+        -0.999817050859861,
+        -90641.35016465423
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4740612.199817703,
+        "south": -90914.30021953897,
+        "east": 4741106.14978732,
+        "north": -90641.35016465423
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_04_08.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4741106.14978732,
+        0.0,
+        -0.999817050859861,
+        -90641.35016465423
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4741106.14978732,
+        "south": -90914.30021953897,
+        "east": 4741600.099756937,
+        "north": -90641.35016465423
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_04_09.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4741600.0997569375,
+        0.0,
+        -0.999817050859861,
+        -90641.35016465423
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4741600.0997569375,
+        "south": -90914.30021953897,
+        "east": 4742094.049726554,
+        "north": -90641.35016465423
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_04_10.tif",
+      "file_size_mb": 0.51,
+      "width": 491,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4742094.049726554,
+        0.0,
+        -0.999817050859861,
+        -90641.35016465423
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4742094.049726554,
+        "south": -90914.30021953897,
+        "east": 4742585.0,
+        "north": -90641.35016465423
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_05_01.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4737648.5,
+        0.0,
+        -0.999817050859861,
+        -90914.30021953897
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4737648.5,
+        "south": -91187.25027442371,
+        "east": 4738142.449969617,
+        "north": -90914.30021953897
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_05_02.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4738142.449969617,
+        0.0,
+        -0.999817050859861,
+        -90914.30021953897
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4738142.449969617,
+        "south": -91187.25027442371,
+        "east": 4738636.399939233,
+        "north": -90914.30021953897
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_05_03.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4738636.399939234,
+        0.0,
+        -0.999817050859861,
+        -90914.30021953897
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4738636.399939234,
+        "south": -91187.25027442371,
+        "east": 4739130.349908851,
+        "north": -90914.30021953897
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_05_04.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4739130.349908851,
+        0.0,
+        -0.999817050859861,
+        -90914.30021953897
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4739130.349908851,
+        "south": -91187.25027442371,
+        "east": 4739624.299878468,
+        "north": -90914.30021953897
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_05_05.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4739624.299878469,
+        0.0,
+        -0.999817050859861,
+        -90914.30021953897
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4739624.299878469,
+        "south": -91187.25027442371,
+        "east": 4740118.249848085,
+        "north": -90914.30021953897
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_05_06.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4740118.249848085,
+        0.0,
+        -0.999817050859861,
+        -90914.30021953897
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4740118.249848085,
+        "south": -91187.25027442371,
+        "east": 4740612.199817702,
+        "north": -90914.30021953897
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_05_07.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4740612.199817703,
+        0.0,
+        -0.999817050859861,
+        -90914.30021953897
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4740612.199817703,
+        "south": -91187.25027442371,
+        "east": 4741106.14978732,
+        "north": -90914.30021953897
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_05_08.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4741106.14978732,
+        0.0,
+        -0.999817050859861,
+        -90914.30021953897
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4741106.14978732,
+        "south": -91187.25027442371,
+        "east": 4741600.099756937,
+        "north": -90914.30021953897
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_05_09.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4741600.0997569375,
+        0.0,
+        -0.999817050859861,
+        -90914.30021953897
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4741600.0997569375,
+        "south": -91187.25027442371,
+        "east": 4742094.049726554,
+        "north": -90914.30021953897
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_05_10.tif",
+      "file_size_mb": 0.51,
+      "width": 491,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4742094.049726554,
+        0.0,
+        -0.999817050859861,
+        -90914.30021953897
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4742094.049726554,
+        "south": -91187.25027442371,
+        "east": 4742585.0,
+        "north": -90914.30021953897
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_06_01.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4737648.5,
+        0.0,
+        -0.999817050859861,
+        -91187.25027442371
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4737648.5,
+        "south": -91460.20032930846,
+        "east": 4738142.449969617,
+        "north": -91187.25027442371
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_06_02.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4738142.449969617,
+        0.0,
+        -0.999817050859861,
+        -91187.25027442371
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4738142.449969617,
+        "south": -91460.20032930846,
+        "east": 4738636.399939233,
+        "north": -91187.25027442371
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_06_03.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4738636.399939234,
+        0.0,
+        -0.999817050859861,
+        -91187.25027442371
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4738636.399939234,
+        "south": -91460.20032930846,
+        "east": 4739130.349908851,
+        "north": -91187.25027442371
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_06_04.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4739130.349908851,
+        0.0,
+        -0.999817050859861,
+        -91187.25027442371
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4739130.349908851,
+        "south": -91460.20032930846,
+        "east": 4739624.299878468,
+        "north": -91187.25027442371
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_06_05.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4739624.299878469,
+        0.0,
+        -0.999817050859861,
+        -91187.25027442371
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4739624.299878469,
+        "south": -91460.20032930846,
+        "east": 4740118.249848085,
+        "north": -91187.25027442371
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_06_06.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4740118.249848085,
+        0.0,
+        -0.999817050859861,
+        -91187.25027442371
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4740118.249848085,
+        "south": -91460.20032930846,
+        "east": 4740612.199817702,
+        "north": -91187.25027442371
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_06_07.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4740612.199817703,
+        0.0,
+        -0.999817050859861,
+        -91187.25027442371
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4740612.199817703,
+        "south": -91460.20032930846,
+        "east": 4741106.14978732,
+        "north": -91187.25027442371
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_06_08.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4741106.14978732,
+        0.0,
+        -0.999817050859861,
+        -91187.25027442371
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4741106.14978732,
+        "south": -91460.20032930846,
+        "east": 4741600.099756937,
+        "north": -91187.25027442371
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_06_09.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4741600.0997569375,
+        0.0,
+        -0.999817050859861,
+        -91187.25027442371
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4741600.0997569375,
+        "south": -91460.20032930846,
+        "east": 4742094.049726554,
+        "north": -91187.25027442371
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_06_10.tif",
+      "file_size_mb": 0.51,
+      "width": 491,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4742094.049726554,
+        0.0,
+        -0.999817050859861,
+        -91187.25027442371
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4742094.049726554,
+        "south": -91460.20032930846,
+        "east": 4742585.0,
+        "north": -91187.25027442371
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_07_01.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4737648.5,
+        0.0,
+        -0.999817050859861,
+        -91460.20032930846
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4737648.5,
+        "south": -91733.1503841932,
+        "east": 4738142.449969617,
+        "north": -91460.20032930846
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_07_02.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4738142.449969617,
+        0.0,
+        -0.999817050859861,
+        -91460.20032930846
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4738142.449969617,
+        "south": -91733.1503841932,
+        "east": 4738636.399939233,
+        "north": -91460.20032930846
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_07_03.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4738636.399939234,
+        0.0,
+        -0.999817050859861,
+        -91460.20032930846
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4738636.399939234,
+        "south": -91733.1503841932,
+        "east": 4739130.349908851,
+        "north": -91460.20032930846
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_07_04.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4739130.349908851,
+        0.0,
+        -0.999817050859861,
+        -91460.20032930846
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4739130.349908851,
+        "south": -91733.1503841932,
+        "east": 4739624.299878468,
+        "north": -91460.20032930846
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_07_05.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4739624.299878469,
+        0.0,
+        -0.999817050859861,
+        -91460.20032930846
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4739624.299878469,
+        "south": -91733.1503841932,
+        "east": 4740118.249848085,
+        "north": -91460.20032930846
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_07_06.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4740118.249848085,
+        0.0,
+        -0.999817050859861,
+        -91460.20032930846
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4740118.249848085,
+        "south": -91733.1503841932,
+        "east": 4740612.199817702,
+        "north": -91460.20032930846
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_07_07.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4740612.199817703,
+        0.0,
+        -0.999817050859861,
+        -91460.20032930846
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4740612.199817703,
+        "south": -91733.1503841932,
+        "east": 4741106.14978732,
+        "north": -91460.20032930846
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_07_08.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4741106.14978732,
+        0.0,
+        -0.999817050859861,
+        -91460.20032930846
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4741106.14978732,
+        "south": -91733.1503841932,
+        "east": 4741600.099756937,
+        "north": -91460.20032930846
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_07_09.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4741600.0997569375,
+        0.0,
+        -0.999817050859861,
+        -91460.20032930846
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4741600.0997569375,
+        "south": -91733.1503841932,
+        "east": 4742094.049726554,
+        "north": -91460.20032930846
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_07_10.tif",
+      "file_size_mb": 0.51,
+      "width": 491,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4742094.049726554,
+        0.0,
+        -0.999817050859861,
+        -91460.20032930846
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4742094.049726554,
+        "south": -91733.1503841932,
+        "east": 4742585.0,
+        "north": -91460.20032930846
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_08_01.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4737648.5,
+        0.0,
+        -0.999817050859861,
+        -91733.1503841932
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4737648.5,
+        "south": -92006.10043907794,
+        "east": 4738142.449969617,
+        "north": -91733.1503841932
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_08_02.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4738142.449969617,
+        0.0,
+        -0.999817050859861,
+        -91733.1503841932
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4738142.449969617,
+        "south": -92006.10043907794,
+        "east": 4738636.399939233,
+        "north": -91733.1503841932
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_08_03.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4738636.399939234,
+        0.0,
+        -0.999817050859861,
+        -91733.1503841932
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4738636.399939234,
+        "south": -92006.10043907794,
+        "east": 4739130.349908851,
+        "north": -91733.1503841932
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_08_04.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4739130.349908851,
+        0.0,
+        -0.999817050859861,
+        -91733.1503841932
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4739130.349908851,
+        "south": -92006.10043907794,
+        "east": 4739624.299878468,
+        "north": -91733.1503841932
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_08_05.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4739624.299878469,
+        0.0,
+        -0.999817050859861,
+        -91733.1503841932
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4739624.299878469,
+        "south": -92006.10043907794,
+        "east": 4740118.249848085,
+        "north": -91733.1503841932
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_08_06.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4740118.249848085,
+        0.0,
+        -0.999817050859861,
+        -91733.1503841932
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4740118.249848085,
+        "south": -92006.10043907794,
+        "east": 4740612.199817702,
+        "north": -91733.1503841932
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_08_07.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4740612.199817703,
+        0.0,
+        -0.999817050859861,
+        -91733.1503841932
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4740612.199817703,
+        "south": -92006.10043907794,
+        "east": 4741106.14978732,
+        "north": -91733.1503841932
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_08_08.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4741106.14978732,
+        0.0,
+        -0.999817050859861,
+        -91733.1503841932
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4741106.14978732,
+        "south": -92006.10043907794,
+        "east": 4741600.099756937,
+        "north": -91733.1503841932
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_08_09.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4741600.0997569375,
+        0.0,
+        -0.999817050859861,
+        -91733.1503841932
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4741600.0997569375,
+        "south": -92006.10043907794,
+        "east": 4742094.049726554,
+        "north": -91733.1503841932
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_08_10.tif",
+      "file_size_mb": 0.51,
+      "width": 491,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4742094.049726554,
+        0.0,
+        -0.999817050859861,
+        -91733.1503841932
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4742094.049726554,
+        "south": -92006.10043907794,
+        "east": 4742585.0,
+        "north": -91733.1503841932
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_09_01.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4737648.5,
+        0.0,
+        -0.999817050859861,
+        -92006.10043907794
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4737648.5,
+        "south": -92279.05049396268,
+        "east": 4738142.449969617,
+        "north": -92006.10043907794
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_09_02.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4738142.449969617,
+        0.0,
+        -0.999817050859861,
+        -92006.10043907794
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4738142.449969617,
+        "south": -92279.05049396268,
+        "east": 4738636.399939233,
+        "north": -92006.10043907794
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_09_03.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4738636.399939234,
+        0.0,
+        -0.999817050859861,
+        -92006.10043907794
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4738636.399939234,
+        "south": -92279.05049396268,
+        "east": 4739130.349908851,
+        "north": -92006.10043907794
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_09_04.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4739130.349908851,
+        0.0,
+        -0.999817050859861,
+        -92006.10043907794
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4739130.349908851,
+        "south": -92279.05049396268,
+        "east": 4739624.299878468,
+        "north": -92006.10043907794
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_09_05.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4739624.299878469,
+        0.0,
+        -0.999817050859861,
+        -92006.10043907794
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4739624.299878469,
+        "south": -92279.05049396268,
+        "east": 4740118.249848085,
+        "north": -92006.10043907794
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_09_06.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4740118.249848085,
+        0.0,
+        -0.999817050859861,
+        -92006.10043907794
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4740118.249848085,
+        "south": -92279.05049396268,
+        "east": 4740612.199817702,
+        "north": -92006.10043907794
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_09_07.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4740612.199817703,
+        0.0,
+        -0.999817050859861,
+        -92006.10043907794
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4740612.199817703,
+        "south": -92279.05049396268,
+        "east": 4741106.14978732,
+        "north": -92006.10043907794
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_09_08.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4741106.14978732,
+        0.0,
+        -0.999817050859861,
+        -92006.10043907794
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4741106.14978732,
+        "south": -92279.05049396268,
+        "east": 4741600.099756937,
+        "north": -92006.10043907794
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_09_09.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4741600.0997569375,
+        0.0,
+        -0.999817050859861,
+        -92006.10043907794
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4741600.0997569375,
+        "south": -92279.05049396268,
+        "east": 4742094.049726554,
+        "north": -92006.10043907794
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_09_10.tif",
+      "file_size_mb": 0.51,
+      "width": 491,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4742094.049726554,
+        0.0,
+        -0.999817050859861,
+        -92006.10043907794
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4742094.049726554,
+        "south": -92279.05049396268,
+        "east": 4742585.0,
+        "north": -92006.10043907794
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_10_01.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4737648.5,
+        0.0,
+        -0.999817050859861,
+        -92279.05049396268
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4737648.5,
+        "south": -92552.00054884743,
+        "east": 4738142.449969617,
+        "north": -92279.05049396268
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_10_02.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4738142.449969617,
+        0.0,
+        -0.999817050859861,
+        -92279.05049396268
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4738142.449969617,
+        "south": -92552.00054884743,
+        "east": 4738636.399939233,
+        "north": -92279.05049396268
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_10_03.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4738636.399939234,
+        0.0,
+        -0.999817050859861,
+        -92279.05049396268
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4738636.399939234,
+        "south": -92552.00054884743,
+        "east": 4739130.349908851,
+        "north": -92279.05049396268
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_10_04.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4739130.349908851,
+        0.0,
+        -0.999817050859861,
+        -92279.05049396268
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4739130.349908851,
+        "south": -92552.00054884743,
+        "east": 4739624.299878468,
+        "north": -92279.05049396268
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_10_05.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4739624.299878469,
+        0.0,
+        -0.999817050859861,
+        -92279.05049396268
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4739624.299878469,
+        "south": -92552.00054884743,
+        "east": 4740118.249848085,
+        "north": -92279.05049396268
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_10_06.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4740118.249848085,
+        0.0,
+        -0.999817050859861,
+        -92279.05049396268
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4740118.249848085,
+        "south": -92552.00054884743,
+        "east": 4740612.199817702,
+        "north": -92279.05049396268
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_10_07.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4740612.199817703,
+        0.0,
+        -0.999817050859861,
+        -92279.05049396268
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4740612.199817703,
+        "south": -92552.00054884743,
+        "east": 4741106.14978732,
+        "north": -92279.05049396268
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_10_08.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4741106.14978732,
+        0.0,
+        -0.999817050859861,
+        -92279.05049396268
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4741106.14978732,
+        "south": -92552.00054884743,
+        "east": 4741600.099756937,
+        "north": -92279.05049396268
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_10_09.tif",
+      "file_size_mb": 0.52,
+      "width": 494,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4741600.0997569375,
+        0.0,
+        -0.999817050859861,
+        -92279.05049396268
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4741600.0997569375,
+        "south": -92552.00054884743,
+        "east": 4742094.049726554,
+        "north": -92279.05049396268
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_10_10.tif",
+      "file_size_mb": 0.52,
+      "width": 491,
+      "height": 273,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4742094.049726554,
+        0.0,
+        -0.999817050859861,
+        -92279.05049396268
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4742094.049726554,
+        "south": -92552.00054884743,
+        "east": 4742585.0,
+        "north": -92279.05049396268
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_11_01.tif",
+      "file_size_mb": 0.01,
+      "width": 494,
+      "height": 3,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4737648.5,
+        0.0,
+        -0.999817050859861,
+        -92552.00054884743
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4737648.5,
+        "south": -92555.0,
+        "east": 4738142.449969617,
+        "north": -92552.00054884743
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_11_02.tif",
+      "file_size_mb": 0.01,
+      "width": 494,
+      "height": 3,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4738142.449969617,
+        0.0,
+        -0.999817050859861,
+        -92552.00054884743
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4738142.449969617,
+        "south": -92555.0,
+        "east": 4738636.399939233,
+        "north": -92552.00054884743
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_11_03.tif",
+      "file_size_mb": 0.01,
+      "width": 494,
+      "height": 3,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4738636.399939234,
+        0.0,
+        -0.999817050859861,
+        -92552.00054884743
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4738636.399939234,
+        "south": -92555.0,
+        "east": 4739130.349908851,
+        "north": -92552.00054884743
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_11_04.tif",
+      "file_size_mb": 0.01,
+      "width": 494,
+      "height": 3,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4739130.349908851,
+        0.0,
+        -0.999817050859861,
+        -92552.00054884743
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4739130.349908851,
+        "south": -92555.0,
+        "east": 4739624.299878468,
+        "north": -92552.00054884743
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_11_05.tif",
+      "file_size_mb": 0.01,
+      "width": 494,
+      "height": 3,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4739624.299878469,
+        0.0,
+        -0.999817050859861,
+        -92552.00054884743
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4739624.299878469,
+        "south": -92555.0,
+        "east": 4740118.249848085,
+        "north": -92552.00054884743
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_11_06.tif",
+      "file_size_mb": 0.01,
+      "width": 494,
+      "height": 3,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4740118.249848085,
+        0.0,
+        -0.999817050859861,
+        -92552.00054884743
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4740118.249848085,
+        "south": -92555.0,
+        "east": 4740612.199817702,
+        "north": -92552.00054884743
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_11_07.tif",
+      "file_size_mb": 0.01,
+      "width": 494,
+      "height": 3,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4740612.199817703,
+        0.0,
+        -0.999817050859861,
+        -92552.00054884743
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4740612.199817703,
+        "south": -92555.0,
+        "east": 4741106.14978732,
+        "north": -92552.00054884743
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_11_08.tif",
+      "file_size_mb": 0.01,
+      "width": 494,
+      "height": 3,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4741106.14978732,
+        0.0,
+        -0.999817050859861,
+        -92552.00054884743
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4741106.14978732,
+        "south": -92555.0,
+        "east": 4741600.099756937,
+        "north": -92552.00054884743
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_11_09.tif",
+      "file_size_mb": 0.01,
+      "width": 494,
+      "height": 3,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4741600.0997569375,
+        0.0,
+        -0.999817050859861,
+        -92552.00054884743
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4741600.0997569375,
+        "south": -92555.0,
+        "east": 4742094.049726554,
+        "north": -92552.00054884743
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/ORTHONAC0.5-1/ORTHONAC0.5-1/ORTHONAC0.5-1_11_10.tif",
+      "file_size_mb": 0.01,
+      "width": 491,
+      "height": 3,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "transform": [
+        0.9998987239214098,
+        0.0,
+        4742094.049726554,
+        0.0,
+        -0.999817050859861,
+        -92552.00054884743
+      ],
+      "pixel_size_x_m": 0.9998987239214098,
+      "pixel_size_y_m": 0.999817050859861,
+      "nodata": null,
+      "bounds": {
+        "west": 4742094.049726554,
+        "south": -92555.0,
+        "east": 4742585.0,
+        "north": -92552.00054884743
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    }
+  ],
+  "summary": {
+    "total_files": 141,
+    "total_size_mb": 77.85,
+    "unique_dtypes": [
+      "float32",
+      "uint8"
+    ],
+    "unique_crs_values": [
+      "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]"
+    ],
+    "pixel_size_range": {
+      "min_m": 0.999817050859861,
+      "max_m": 1.9997974478428195
+    },
+    "any_missing_crs": false,
+    "any_missing_transform": false,
+    "bounds": {
+      "west": 4737648.5,
+      "south": -92555.0,
+      "east": 4742585.0,
+      "north": -89822.5
+    }
+  }
+}

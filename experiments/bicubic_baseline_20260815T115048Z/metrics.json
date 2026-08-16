@@ -1,0 +1,7 @@
+{
+  "status": "blocked_no_validated_pairs",
+  "metrics_type": "none",
+  "split": "val",
+  "reason": "M1-to-M2 contract is blocked_no_validated_pairs: no production SR training is permitted.",
+  "results": {}
+}

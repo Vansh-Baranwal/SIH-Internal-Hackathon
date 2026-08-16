@@ -1,0 +1,92 @@
+{
+  "TMCORTHO5-1": {
+    "total_files": 125,
+    "total_size_mb": 131.7,
+    "unique_dtypes": [
+      "float32"
+    ],
+    "unique_crs_values": [
+      "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]"
+    ],
+    "pixel_size_range": {
+      "min_m": 0.0008328028402367028,
+      "max_m": 0.0016714074346255129
+    },
+    "any_missing_crs": false,
+    "any_missing_transform": false,
+    "bounds": {
+      "west": 338.677834,
+      "south": -29.921244,
+      "east": 339.38155240000003,
+      "north": -2.628832
+    }
+  },
+  "ORTHONAC0.5-1": {
+    "total_files": 141,
+    "total_size_mb": 77.85,
+    "unique_dtypes": [
+      "float32",
+      "uint8"
+    ],
+    "unique_crs_values": [
+      "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]"
+    ],
+    "pixel_size_range": {
+      "min_m": 0.999817050859861,
+      "max_m": 1.9997974478428195
+    },
+    "any_missing_crs": false,
+    "any_missing_transform": false,
+    "bounds": {
+      "west": 4737648.5,
+      "south": -92555.0,
+      "east": 4742585.0,
+      "north": -89822.5
+    }
+  },
+  "NAC": {
+    "total_files": 110,
+    "total_size_mb": 52.01,
+    "unique_dtypes": [
+      "float32"
+    ],
+    "unique_crs_values": [
+      "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",-3],PARAMETER[\"central_meridian\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]"
+    ],
+    "pixel_size_range": {
+      "min_m": 1.0,
+      "max_m": 1.0
+    },
+    "any_missing_crs": false,
+    "any_missing_transform": false,
+    "bounds": {
+      "west": 4737648.0,
+      "south": -92556.0,
+      "east": 4742584.0,
+      "north": -89822.0
+    }
+  },
+  "TMCDTM": {
+    "total_files": 111,
+    "total_size_mb": 39.32,
+    "unique_dtypes": [
+      "float32",
+      "int16"
+    ],
+    "unique_crs_values": [
+      "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]"
+    ],
+    "pixel_size_range": {
+      "min_m": 0.0016642729434721629,
+      "max_m": 0.001667579146919464
+    },
+    "any_missing_crs": false,
+    "any_missing_transform": false,
+    "bounds": {
+      "west": 338.677833776,
+      "south": -29.921243999999998,
+      "east": 339.38155240000003,
+      "north": -2.628831987
+    }
+  }
+}

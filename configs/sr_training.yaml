@@ -1,0 +1,15 @@
+# Member 2 CNN training configuration. Training requires validated M1 pairs.
+model:
+  name: cnn
+  scale_factor: 4
+  n_residual_blocks: 8
+  n_features: 64
+training:
+  batch_size: 4
+  num_workers: 2
+  learning_rate: 0.0001
+  epochs: 50
+  checkpoint_every: 1
+  patch_size_lr: 32
+  seed: 42
+device: auto

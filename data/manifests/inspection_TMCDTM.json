@@ -1,0 +1,3248 @@
+{
+  "dataset": "TMCDTM",
+  "source": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM",
+  "records": [
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM.tif",
+      "file_size_mb": 13.22,
+      "width": 422,
+      "height": 16399,
+      "count": 1,
+      "dtype": "int16",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.677833776,
+        0.0,
+        -0.0016642729434721629,
+        -2.628831987
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.677833776,
+        "south": -29.921243986999997,
+        "east": 339.381552176,
+        "north": -2.628831987
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.09617205880950433
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_01_01.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.677834,
+        0.0,
+        -0.0016642729434721629,
+        -2.628832
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.677834,
+        "south": -5.358239627294347,
+        "east": 338.74787232417066,
+        "north": -2.628832
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.645760743321719
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_01_02.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.74787232417066,
+        0.0,
+        -0.0016642729434721629,
+        -2.628832
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.74787232417066,
+        "south": -5.358239627294347,
+        "east": 338.8179106483413,
+        "north": -2.628832
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.00037746806039488966
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_01_03.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.81791064834124,
+        0.0,
+        -0.0016642729434721629,
+        -2.628832
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.81791064834124,
+        "south": -5.358239627294347,
+        "east": 338.8879489725119,
+        "north": -2.628832
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_01_04.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.8879489725119,
+        0.0,
+        -0.0016642729434721629,
+        -2.628832
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.8879489725119,
+        "south": -5.358239627294347,
+        "east": 338.9579872966825,
+        "north": -2.628832
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_01_05.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.95798729668246,
+        0.0,
+        -0.0016642729434721629,
+        -2.628832
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.95798729668246,
+        "south": -5.358239627294347,
+        "east": 339.0280256208531,
+        "north": -2.628832
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_01_06.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.0280256208531,
+        0.0,
+        -0.0016642729434721629,
+        -2.628832
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.0280256208531,
+        "south": -5.358239627294347,
+        "east": 339.09806394502374,
+        "north": -2.628832
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_01_07.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.09806394502374,
+        0.0,
+        -0.0016642729434721629,
+        -2.628832
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.09806394502374,
+        "south": -5.358239627294347,
+        "east": 339.1681022691944,
+        "north": -2.628832
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0002468060394889663
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_01_08.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.1681022691943,
+        0.0,
+        -0.0016642729434721629,
+        -2.628832
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.1681022691943,
+        "south": -5.358239627294347,
+        "east": 339.23814059336496,
+        "north": -2.628832
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0006097560975609756
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_01_09.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.23814059336496,
+        0.0,
+        -0.0016642729434721629,
+        -2.628832
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.23814059336496,
+        "south": -5.358239627294347,
+        "east": 339.3081789175356,
+        "north": -2.628832
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.14621080139372822
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_01_10.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.3081789175356,
+        0.0,
+        -0.0016642729434721629,
+        -2.628832
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.3081789175356,
+        "south": -5.358239627294347,
+        "east": 339.37821724170624,
+        "north": -2.628832
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 1.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_01_11.tif",
+      "file_size_mb": 0.01,
+      "width": 2,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.3782172417062,
+        0.0,
+        -0.0016642729434721629,
+        -2.628832
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.3782172417062,
+        "south": -5.358239627294347,
+        "east": 339.38155240000003,
+        "north": -2.628832
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 1.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_02_01.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.677834,
+        0.0,
+        -0.0016642729434721629,
+        -5.358239627294347
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.677834,
+        "south": -8.087647254588695,
+        "east": 338.74787232417066,
+        "north": -5.358239627294347
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.5778890824622532
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_02_02.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.74787232417066,
+        0.0,
+        -0.0016642729434721629,
+        -5.358239627294347
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.74787232417066,
+        "south": -8.087647254588695,
+        "east": 338.8179106483413,
+        "north": -5.358239627294347
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_02_03.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.81791064834124,
+        0.0,
+        -0.0016642729434721629,
+        -5.358239627294347
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.81791064834124,
+        "south": -8.087647254588695,
+        "east": 338.8879489725119,
+        "north": -5.358239627294347
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_02_04.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.8879489725119,
+        0.0,
+        -0.0016642729434721629,
+        -5.358239627294347
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.8879489725119,
+        "south": -8.087647254588695,
+        "east": 338.9579872966825,
+        "north": -5.358239627294347
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_02_05.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.95798729668246,
+        0.0,
+        -0.0016642729434721629,
+        -5.358239627294347
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.95798729668246,
+        "south": -8.087647254588695,
+        "east": 339.0280256208531,
+        "north": -5.358239627294347
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_02_06.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.0280256208531,
+        0.0,
+        -0.0016642729434721629,
+        -5.358239627294347
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.0280256208531,
+        "south": -8.087647254588695,
+        "east": 339.09806394502374,
+        "north": -5.358239627294347
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_02_07.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.09806394502374,
+        0.0,
+        -0.0016642729434721629,
+        -5.358239627294347
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.09806394502374,
+        "south": -8.087647254588695,
+        "east": 339.1681022691944,
+        "north": -5.358239627294347
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_02_08.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.1681022691943,
+        0.0,
+        -0.0016642729434721629,
+        -5.358239627294347
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.1681022691943,
+        "south": -8.087647254588695,
+        "east": 339.23814059336496,
+        "north": -5.358239627294347
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_02_09.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.23814059336496,
+        0.0,
+        -0.0016642729434721629,
+        -5.358239627294347
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.23814059336496,
+        "south": -8.087647254588695,
+        "east": 339.3081789175356,
+        "north": -5.358239627294347
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.026393728222996515
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_02_10.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.3081789175356,
+        0.0,
+        -0.0016642729434721629,
+        -5.358239627294347
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.3081789175356,
+        "south": -8.087647254588695,
+        "east": 339.37821724170624,
+        "north": -5.358239627294347
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.992465156794425
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_02_11.tif",
+      "file_size_mb": 0.01,
+      "width": 2,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.3782172417062,
+        0.0,
+        -0.0016642729434721629,
+        -5.358239627294347
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.3782172417062,
+        "south": -8.087647254588695,
+        "east": 339.38155240000003,
+        "north": -5.358239627294347
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 1.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_03_01.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.677834,
+        0.0,
+        -0.0016642729434721629,
+        -8.087647254588695
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.677834,
+        "south": -10.817054881883042,
+        "east": 338.74787232417066,
+        "north": -8.087647254588695
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.5102787456445993
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_03_02.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.74787232417066,
+        0.0,
+        -0.0016642729434721629,
+        -8.087647254588695
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.74787232417066,
+        "south": -10.817054881883042,
+        "east": 338.8179106483413,
+        "north": -8.087647254588695
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_03_03.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.81791064834124,
+        0.0,
+        -0.0016642729434721629,
+        -8.087647254588695
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.81791064834124,
+        "south": -10.817054881883042,
+        "east": 338.8879489725119,
+        "north": -8.087647254588695
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_03_04.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.8879489725119,
+        0.0,
+        -0.0016642729434721629,
+        -8.087647254588695
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.8879489725119,
+        "south": -10.817054881883042,
+        "east": 338.9579872966825,
+        "north": -8.087647254588695
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_03_05.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.95798729668246,
+        0.0,
+        -0.0016642729434721629,
+        -8.087647254588695
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.95798729668246,
+        "south": -10.817054881883042,
+        "east": 339.0280256208531,
+        "north": -8.087647254588695
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_03_06.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.0280256208531,
+        0.0,
+        -0.0016642729434721629,
+        -8.087647254588695
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.0280256208531,
+        "south": -10.817054881883042,
+        "east": 339.09806394502374,
+        "north": -8.087647254588695
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_03_07.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.09806394502374,
+        0.0,
+        -0.0016642729434721629,
+        -8.087647254588695
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.09806394502374,
+        "south": -10.817054881883042,
+        "east": 339.1681022691944,
+        "north": -8.087647254588695
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_03_08.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.1681022691943,
+        0.0,
+        -0.0016642729434721629,
+        -8.087647254588695
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.1681022691943,
+        "south": -10.817054881883042,
+        "east": 339.23814059336496,
+        "north": -8.087647254588695
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_03_09.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.23814059336496,
+        0.0,
+        -0.0016642729434721629,
+        -8.087647254588695
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.23814059336496,
+        "south": -10.817054881883042,
+        "east": 339.3081789175356,
+        "north": -8.087647254588695
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_03_10.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.3081789175356,
+        0.0,
+        -0.0016642729434721629,
+        -8.087647254588695
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.3081789175356,
+        "south": -10.817054881883042,
+        "east": 339.37821724170624,
+        "north": -8.087647254588695
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.8929878048780487
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_03_11.tif",
+      "file_size_mb": 0.01,
+      "width": 2,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.3782172417062,
+        0.0,
+        -0.0016642729434721629,
+        -8.087647254588695
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.3782172417062,
+        "south": -10.817054881883042,
+        "east": 339.38155240000003,
+        "north": -8.087647254588695
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 1.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_04_01.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.677834,
+        0.0,
+        -0.0016642729434721629,
+        -10.817054881883042
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.677834,
+        "south": -13.546462509177388,
+        "east": 338.74787232417066,
+        "north": -10.817054881883042
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.4428135888501742
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_04_02.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.74787232417066,
+        0.0,
+        -0.0016642729434721629,
+        -10.817054881883042
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.74787232417066,
+        "south": -13.546462509177388,
+        "east": 338.8179106483413,
+        "north": -10.817054881883042
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_04_03.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.81791064834124,
+        0.0,
+        -0.0016642729434721629,
+        -10.817054881883042
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.81791064834124,
+        "south": -13.546462509177388,
+        "east": 338.8879489725119,
+        "north": -10.817054881883042
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_04_04.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.8879489725119,
+        0.0,
+        -0.0016642729434721629,
+        -10.817054881883042
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.8879489725119,
+        "south": -13.546462509177388,
+        "east": 338.9579872966825,
+        "north": -10.817054881883042
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_04_05.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.95798729668246,
+        0.0,
+        -0.0016642729434721629,
+        -10.817054881883042
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.95798729668246,
+        "south": -13.546462509177388,
+        "east": 339.0280256208531,
+        "north": -10.817054881883042
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_04_06.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.0280256208531,
+        0.0,
+        -0.0016642729434721629,
+        -10.817054881883042
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.0280256208531,
+        "south": -13.546462509177388,
+        "east": 339.09806394502374,
+        "north": -10.817054881883042
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_04_07.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.09806394502374,
+        0.0,
+        -0.0016642729434721629,
+        -10.817054881883042
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.09806394502374,
+        "south": -13.546462509177388,
+        "east": 339.1681022691944,
+        "north": -10.817054881883042
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_04_08.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.1681022691943,
+        0.0,
+        -0.0016642729434721629,
+        -10.817054881883042
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.1681022691943,
+        "south": -13.546462509177388,
+        "east": 339.23814059336496,
+        "north": -10.817054881883042
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_04_09.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.23814059336496,
+        0.0,
+        -0.0016642729434721629,
+        -10.817054881883042
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.23814059336496,
+        "south": -13.546462509177388,
+        "east": 339.3081789175356,
+        "north": -10.817054881883042
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_04_10.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.3081789175356,
+        0.0,
+        -0.0016642729434721629,
+        -10.817054881883042
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.3081789175356,
+        "south": -13.546462509177388,
+        "east": 339.37821724170624,
+        "north": -10.817054881883042
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.7672619047619048
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_04_11.tif",
+      "file_size_mb": 0.01,
+      "width": 2,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.3782172417062,
+        0.0,
+        -0.0016642729434721629,
+        -10.817054881883042
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.3782172417062,
+        "south": -13.546462509177388,
+        "east": 339.38155240000003,
+        "north": -10.817054881883042
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 1.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_05_01.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.677834,
+        0.0,
+        -0.0016642729434721629,
+        -13.546462509177388
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.677834,
+        "south": -16.275870136471735,
+        "east": 338.74787232417066,
+        "north": -13.546462509177388
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.3752177700348432
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_05_02.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.74787232417066,
+        0.0,
+        -0.0016642729434721629,
+        -13.546462509177388
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.74787232417066,
+        "south": -16.275870136471735,
+        "east": 338.8179106483413,
+        "north": -13.546462509177388
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_05_03.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.81791064834124,
+        0.0,
+        -0.0016642729434721629,
+        -13.546462509177388
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.81791064834124,
+        "south": -16.275870136471735,
+        "east": 338.8879489725119,
+        "north": -13.546462509177388
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_05_04.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.8879489725119,
+        0.0,
+        -0.0016642729434721629,
+        -13.546462509177388
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.8879489725119,
+        "south": -16.275870136471735,
+        "east": 338.9579872966825,
+        "north": -13.546462509177388
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_05_05.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.95798729668246,
+        0.0,
+        -0.0016642729434721629,
+        -13.546462509177388
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.95798729668246,
+        "south": -16.275870136471735,
+        "east": 339.0280256208531,
+        "north": -13.546462509177388
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_05_06.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.0280256208531,
+        0.0,
+        -0.0016642729434721629,
+        -13.546462509177388
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.0280256208531,
+        "south": -16.275870136471735,
+        "east": 339.09806394502374,
+        "north": -13.546462509177388
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_05_07.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.09806394502374,
+        0.0,
+        -0.0016642729434721629,
+        -13.546462509177388
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.09806394502374,
+        "south": -16.275870136471735,
+        "east": 339.1681022691944,
+        "north": -13.546462509177388
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_05_08.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.1681022691943,
+        0.0,
+        -0.0016642729434721629,
+        -13.546462509177388
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.1681022691943,
+        "south": -16.275870136471735,
+        "east": 339.23814059336496,
+        "north": -13.546462509177388
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_05_09.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.23814059336496,
+        0.0,
+        -0.0016642729434721629,
+        -13.546462509177388
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.23814059336496,
+        "south": -16.275870136471735,
+        "east": 339.3081789175356,
+        "north": -13.546462509177388
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_05_10.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.3081789175356,
+        0.0,
+        -0.0016642729434721629,
+        -13.546462509177388
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.3081789175356,
+        "south": -16.275870136471735,
+        "east": 339.37821724170624,
+        "north": -13.546462509177388
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.640418118466899
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_05_11.tif",
+      "file_size_mb": 0.01,
+      "width": 2,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.3782172417062,
+        0.0,
+        -0.0016642729434721629,
+        -13.546462509177388
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.3782172417062,
+        "south": -16.275870136471735,
+        "east": 339.38155240000003,
+        "north": -13.546462509177388
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 1.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_06_01.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.677834,
+        0.0,
+        -0.0016642729434721629,
+        -16.275870136471735
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.677834,
+        "south": -19.00527776376608,
+        "east": 338.74787232417066,
+        "north": -16.275870136471735
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.3076074332171893
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_06_02.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.74787232417066,
+        0.0,
+        -0.0016642729434721629,
+        -16.275870136471735
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.74787232417066,
+        "south": -19.00527776376608,
+        "east": 338.8179106483413,
+        "north": -16.275870136471735
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_06_03.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.81791064834124,
+        0.0,
+        -0.0016642729434721629,
+        -16.275870136471735
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.81791064834124,
+        "south": -19.00527776376608,
+        "east": 338.8879489725119,
+        "north": -16.275870136471735
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_06_04.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.8879489725119,
+        0.0,
+        -0.0016642729434721629,
+        -16.275870136471735
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.8879489725119,
+        "south": -19.00527776376608,
+        "east": 338.9579872966825,
+        "north": -16.275870136471735
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_06_05.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.95798729668246,
+        0.0,
+        -0.0016642729434721629,
+        -16.275870136471735
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.95798729668246,
+        "south": -19.00527776376608,
+        "east": 339.0280256208531,
+        "north": -16.275870136471735
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_06_06.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.0280256208531,
+        0.0,
+        -0.0016642729434721629,
+        -16.275870136471735
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.0280256208531,
+        "south": -19.00527776376608,
+        "east": 339.09806394502374,
+        "north": -16.275870136471735
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_06_07.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.09806394502374,
+        0.0,
+        -0.0016642729434721629,
+        -16.275870136471735
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.09806394502374,
+        "south": -19.00527776376608,
+        "east": 339.1681022691944,
+        "north": -16.275870136471735
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_06_08.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.1681022691943,
+        0.0,
+        -0.0016642729434721629,
+        -16.275870136471735
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.1681022691943,
+        "south": -19.00527776376608,
+        "east": 339.23814059336496,
+        "north": -16.275870136471735
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_06_09.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.23814059336496,
+        0.0,
+        -0.0016642729434721629,
+        -16.275870136471735
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.23814059336496,
+        "south": -19.00527776376608,
+        "east": 339.3081789175356,
+        "north": -16.275870136471735
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_06_10.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.3081789175356,
+        0.0,
+        -0.0016642729434721629,
+        -16.275870136471735
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.3081789175356,
+        "south": -19.00527776376608,
+        "east": 339.37821724170624,
+        "north": -16.275870136471735
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.5143728222996515
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_06_11.tif",
+      "file_size_mb": 0.01,
+      "width": 2,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.3782172417062,
+        0.0,
+        -0.0016642729434721629,
+        -16.275870136471735
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.3782172417062,
+        "south": -19.00527776376608,
+        "east": 339.38155240000003,
+        "north": -16.275870136471735
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 1.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_07_01.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.677834,
+        0.0,
+        -0.0016642729434721629,
+        -19.00527776376608
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.677834,
+        "south": -21.734685391060427,
+        "east": 338.74787232417066,
+        "north": -19.00527776376608
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.23908246225319396
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_07_02.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.74787232417066,
+        0.0,
+        -0.0016642729434721629,
+        -19.00527776376608
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.74787232417066,
+        "south": -21.734685391060427,
+        "east": 338.8179106483413,
+        "north": -19.00527776376608
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_07_03.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.81791064834124,
+        0.0,
+        -0.0016642729434721629,
+        -19.00527776376608
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.81791064834124,
+        "south": -21.734685391060427,
+        "east": 338.8879489725119,
+        "north": -19.00527776376608
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_07_04.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.8879489725119,
+        0.0,
+        -0.0016642729434721629,
+        -19.00527776376608
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.8879489725119,
+        "south": -21.734685391060427,
+        "east": 338.9579872966825,
+        "north": -19.00527776376608
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_07_05.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.95798729668246,
+        0.0,
+        -0.0016642729434721629,
+        -19.00527776376608
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.95798729668246,
+        "south": -21.734685391060427,
+        "east": 339.0280256208531,
+        "north": -19.00527776376608
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_07_06.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.0280256208531,
+        0.0,
+        -0.0016642729434721629,
+        -19.00527776376608
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.0280256208531,
+        "south": -21.734685391060427,
+        "east": 339.09806394502374,
+        "north": -19.00527776376608
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_07_07.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.09806394502374,
+        0.0,
+        -0.0016642729434721629,
+        -19.00527776376608
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.09806394502374,
+        "south": -21.734685391060427,
+        "east": 339.1681022691944,
+        "north": -19.00527776376608
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_07_08.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.1681022691943,
+        0.0,
+        -0.0016642729434721629,
+        -19.00527776376608
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.1681022691943,
+        "south": -21.734685391060427,
+        "east": 339.23814059336496,
+        "north": -19.00527776376608
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_07_09.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.23814059336496,
+        0.0,
+        -0.0016642729434721629,
+        -19.00527776376608
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.23814059336496,
+        "south": -21.734685391060427,
+        "east": 339.3081789175356,
+        "north": -19.00527776376608
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_07_10.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.3081789175356,
+        0.0,
+        -0.0016642729434721629,
+        -19.00527776376608
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.3081789175356,
+        "south": -21.734685391060427,
+        "east": 339.37821724170624,
+        "north": -19.00527776376608
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.3885162601626016
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_07_11.tif",
+      "file_size_mb": 0.01,
+      "width": 2,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.3782172417062,
+        0.0,
+        -0.0016642729434721629,
+        -19.00527776376608
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.3782172417062,
+        "south": -21.734685391060427,
+        "east": 339.38155240000003,
+        "north": -19.00527776376608
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 1.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_08_01.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.677834,
+        0.0,
+        -0.0016642729434721629,
+        -21.734685391060427
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.677834,
+        "south": -24.464093018354774,
+        "east": 338.74787232417066,
+        "north": -21.734685391060427
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.1712253193960511
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_08_02.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.74787232417066,
+        0.0,
+        -0.0016642729434721629,
+        -21.734685391060427
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.74787232417066,
+        "south": -24.464093018354774,
+        "east": 338.8179106483413,
+        "north": -21.734685391060427
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_08_03.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.81791064834124,
+        0.0,
+        -0.0016642729434721629,
+        -21.734685391060427
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.81791064834124,
+        "south": -24.464093018354774,
+        "east": 338.8879489725119,
+        "north": -21.734685391060427
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_08_04.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.8879489725119,
+        0.0,
+        -0.0016642729434721629,
+        -21.734685391060427
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.8879489725119,
+        "south": -24.464093018354774,
+        "east": 338.9579872966825,
+        "north": -21.734685391060427
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_08_05.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.95798729668246,
+        0.0,
+        -0.0016642729434721629,
+        -21.734685391060427
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.95798729668246,
+        "south": -24.464093018354774,
+        "east": 339.0280256208531,
+        "north": -21.734685391060427
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_08_06.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.0280256208531,
+        0.0,
+        -0.0016642729434721629,
+        -21.734685391060427
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.0280256208531,
+        "south": -24.464093018354774,
+        "east": 339.09806394502374,
+        "north": -21.734685391060427
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_08_07.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.09806394502374,
+        0.0,
+        -0.0016642729434721629,
+        -21.734685391060427
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.09806394502374,
+        "south": -24.464093018354774,
+        "east": 339.1681022691944,
+        "north": -21.734685391060427
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_08_08.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.1681022691943,
+        0.0,
+        -0.0016642729434721629,
+        -21.734685391060427
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.1681022691943,
+        "south": -24.464093018354774,
+        "east": 339.23814059336496,
+        "north": -21.734685391060427
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_08_09.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.23814059336496,
+        0.0,
+        -0.0016642729434721629,
+        -21.734685391060427
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.23814059336496,
+        "south": -24.464093018354774,
+        "east": 339.3081789175356,
+        "north": -21.734685391060427
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_08_10.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.3081789175356,
+        0.0,
+        -0.0016642729434721629,
+        -21.734685391060427
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.3081789175356,
+        "south": -24.464093018354774,
+        "east": 339.37821724170624,
+        "north": -21.734685391060427
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.262137049941928
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_08_11.tif",
+      "file_size_mb": 0.01,
+      "width": 2,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.3782172417062,
+        0.0,
+        -0.0016642729434721629,
+        -21.734685391060427
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.3782172417062,
+        "south": -24.464093018354774,
+        "east": 339.38155240000003,
+        "north": -21.734685391060427
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 1.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_09_01.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.677834,
+        0.0,
+        -0.0016642729434721629,
+        -24.464093018354777
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.677834,
+        "south": -27.193500645649124,
+        "east": 338.74787232417066,
+        "north": -24.464093018354777
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.1037746806039489
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_09_02.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.74787232417066,
+        0.0,
+        -0.0016642729434721629,
+        -24.464093018354777
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.74787232417066,
+        "south": -27.193500645649124,
+        "east": 338.8179106483413,
+        "north": -24.464093018354777
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_09_03.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.81791064834124,
+        0.0,
+        -0.0016642729434721629,
+        -24.464093018354777
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.81791064834124,
+        "south": -27.193500645649124,
+        "east": 338.8879489725119,
+        "north": -24.464093018354777
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_09_04.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.8879489725119,
+        0.0,
+        -0.0016642729434721629,
+        -24.464093018354777
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.8879489725119,
+        "south": -27.193500645649124,
+        "east": 338.9579872966825,
+        "north": -24.464093018354777
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_09_05.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.95798729668246,
+        0.0,
+        -0.0016642729434721629,
+        -24.464093018354777
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.95798729668246,
+        "south": -27.193500645649124,
+        "east": 339.0280256208531,
+        "north": -24.464093018354777
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_09_06.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.0280256208531,
+        0.0,
+        -0.0016642729434721629,
+        -24.464093018354777
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.0280256208531,
+        "south": -27.193500645649124,
+        "east": 339.09806394502374,
+        "north": -24.464093018354777
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_09_07.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.09806394502374,
+        0.0,
+        -0.0016642729434721629,
+        -24.464093018354777
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.09806394502374,
+        "south": -27.193500645649124,
+        "east": 339.1681022691944,
+        "north": -24.464093018354777
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_09_08.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.1681022691943,
+        0.0,
+        -0.0016642729434721629,
+        -24.464093018354777
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.1681022691943,
+        "south": -27.193500645649124,
+        "east": 339.23814059336496,
+        "north": -24.464093018354777
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_09_09.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.23814059336496,
+        0.0,
+        -0.0016642729434721629,
+        -24.464093018354777
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.23814059336496,
+        "south": -27.193500645649124,
+        "east": 339.3081789175356,
+        "north": -24.464093018354777
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_09_10.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.3081789175356,
+        0.0,
+        -0.0016642729434721629,
+        -24.464093018354777
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.3081789175356,
+        "south": -27.193500645649124,
+        "east": 339.37821724170624,
+        "north": -24.464093018354777
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.1356562137049942
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_09_11.tif",
+      "file_size_mb": 0.01,
+      "width": 2,
+      "height": 1640,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.3782172417062,
+        0.0,
+        -0.0016642729434721629,
+        -24.464093018354777
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.3782172417062,
+        "south": -27.193500645649124,
+        "east": 339.38155240000003,
+        "north": -24.464093018354777
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 1.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_10_01.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1639,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.677834,
+        0.0,
+        -0.0016642729434721629,
+        -27.193500645649124
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.677834,
+        "south": -29.921243999999998,
+        "east": 338.74787232417066,
+        "north": -27.193500645649124
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0363026235509457
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_10_02.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1639,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.74787232417066,
+        0.0,
+        -0.0016642729434721629,
+        -27.193500645649124
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.74787232417066,
+        "south": -29.921243999999998,
+        "east": 338.8179106483413,
+        "north": -27.193500645649124
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_10_03.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1639,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.81791064834124,
+        0.0,
+        -0.0016642729434721629,
+        -27.193500645649124
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.81791064834124,
+        "south": -29.921243999999998,
+        "east": 338.8879489725119,
+        "north": -27.193500645649124
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_10_04.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1639,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.8879489725119,
+        0.0,
+        -0.0016642729434721629,
+        -27.193500645649124
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.8879489725119,
+        "south": -29.921243999999998,
+        "east": 338.9579872966825,
+        "north": -27.193500645649124
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_10_05.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1639,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        338.95798729668246,
+        0.0,
+        -0.0016642729434721629,
+        -27.193500645649124
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 338.95798729668246,
+        "south": -29.921243999999998,
+        "east": 339.0280256208531,
+        "north": -27.193500645649124
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_10_06.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1639,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.0280256208531,
+        0.0,
+        -0.0016642729434721629,
+        -27.193500645649124
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.0280256208531,
+        "south": -29.921243999999998,
+        "east": 339.09806394502374,
+        "north": -27.193500645649124
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_10_07.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1639,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.09806394502374,
+        0.0,
+        -0.0016642729434721629,
+        -27.193500645649124
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.09806394502374,
+        "south": -29.921243999999998,
+        "east": 339.1681022691944,
+        "north": -27.193500645649124
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_10_08.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1639,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.1681022691943,
+        0.0,
+        -0.0016642729434721629,
+        -27.193500645649124
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.1681022691943,
+        "south": -29.921243999999998,
+        "east": 339.23814059336496,
+        "north": -27.193500645649124
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_10_09.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1639,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.23814059336496,
+        0.0,
+        -0.0016642729434721629,
+        -27.193500645649124
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.23814059336496,
+        "south": -29.921243999999998,
+        "east": 339.3081789175356,
+        "north": -27.193500645649124
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.0
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_10_10.tif",
+      "file_size_mb": 0.26,
+      "width": 42,
+      "height": 1639,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.3081789175356,
+        0.0,
+        -0.0016642729434721629,
+        -27.193500645649124
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.3081789175356,
+        "south": -29.921243999999998,
+        "east": 339.37821724170624,
+        "north": -27.193500645649124
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.020599087713181672
+    },
+    {
+      "file_path": "/home/ronit/sih-vansh/../1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/TMCDTM/TMCDTM_10_11.tif",
+      "file_size_mb": 0.01,
+      "width": 2,
+      "height": 1639,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]",
+      "transform": [
+        0.001667579146919464,
+        0.0,
+        339.3782172417062,
+        0.0,
+        -0.0016642729434721629,
+        -27.193500645649124
+      ],
+      "pixel_size_x_m": 0.001667579146919464,
+      "pixel_size_y_m": 0.0016642729434721629,
+      "nodata": -32768.0,
+      "bounds": {
+        "west": 339.3782172417062,
+        "south": -29.921243999999998,
+        "east": 339.38155240000003,
+        "north": -27.193500645649124
+      },
+      "has_valid_crs": true,
+      "has_valid_transform": true,
+      "nodata_fraction": 0.74954240390482
+    }
+  ],
+  "summary": {
+    "total_files": 111,
+    "total_size_mb": 39.32,
+    "unique_dtypes": [
+      "float32",
+      "int16"
+    ],
+    "unique_crs_values": [
+      "GEOGCS[\"SelenoGraphic\",DATUM[\"Moon Spheroid\",SPHEROID[\"Moon Spheroid\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST]]"
+    ],
+    "pixel_size_range": {
+      "min_m": 0.0016642729434721629,
+      "max_m": 0.001667579146919464
+    },
+    "any_missing_crs": false,
+    "any_missing_transform": false,
+    "bounds": {
+      "west": 338.677833776,
+      "south": -29.921243999999998,
+      "east": 339.38155240000003,
+      "north": -2.628831987
+    }
+  }
+}

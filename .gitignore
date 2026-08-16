@@ -1,4 +1,5 @@
 venv/
+.venv/
 __pycache__/
 *.pyc
 data/raw/*
@@ -9,3 +10,4 @@ results/experiments/*
 blender/*.blend1
 !**/README.md
 !**/.gitkeep
+checkpoints/reference_model.pth

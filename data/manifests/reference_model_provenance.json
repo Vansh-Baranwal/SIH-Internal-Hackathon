@@ -1,0 +1,8 @@
+{
+  "status": "incompatible_reference_checkpoint",
+  "artifact": "checkpoints/reference_model.pth",
+  "source_read_only": "/home/ronit/1PROJECTS/SIH/CODE_SIH1519_ORION SPACE SYSTEM/trained_model.pth",
+  "sha256": "abefa8bf508a6eff21350fce374fe977fbcb51a12951a0d97a9112d892ba997a",
+  "format": "torch OrderedDict",
+  "reason": "Checkpoint keys identify a residual detector-style backbone and do not match SRGANGenerator or SimpleSRCNN; it is not registered as an SR model."
+}

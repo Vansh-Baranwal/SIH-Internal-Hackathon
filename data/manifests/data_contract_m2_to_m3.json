@@ -1,0 +1,6 @@
+{
+  "version": "1.0",
+  "status": "blocked_no_compatible_sr_checkpoint",
+  "model": null,
+  "reason": "No compatible trained SR checkpoint is available. The copied reference artifact is retained as provenance only and must not be used for SR inference."
+}
