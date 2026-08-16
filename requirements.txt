@@ -11,3 +11,6 @@ jsonschema
 matplotlib
 tqdm
 affine
+
+fastapi
+uvicorn[standard]
