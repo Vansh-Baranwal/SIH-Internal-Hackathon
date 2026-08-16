@@ -86,8 +86,8 @@ def convert_m5_lander_to_m6_profile(m5_lander: Dict[str, Any]) -> LanderProfile:
         maxVxy=float(m5_lander.get("max_vxy_mps", 1.5)), # Missing from M5, default 1.5
         footprint=float(m5_lander.get("footprint_radius_m", 3.5)),
         clearance=float(m5_lander.get("min_clearance_m", 0.5)),
-        deltaVBudget=float(m5_lander.get("delta_v_budget_mps", 500.0)), # Missing, default 500.0
-        maxThrust=float(m5_lander.get("max_thrust_n", 3000.0)),         # Missing, default 3000.0
+        deltaVBudget=float(m5_lander.get("delta_v_budget_mps", 1000.0)), # Increased budget
+        maxThrust=float(m5_lander.get("max_thrust_n", 15000.0)),         # Increased to provide TWR > 1 for recovery
         isp=float(m5_lander.get("isp_s", 311.0)),
         maxTiltAngle=float(m5_lander.get("max_tilt_deg", 45.0)),
         uncertaintyLimit=float(m5_lander.get("uncertainty_limit", 0.9))

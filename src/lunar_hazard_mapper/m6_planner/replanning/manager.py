@@ -12,9 +12,11 @@ class ReplanManager:
     Coordinates the emergency re-planning cascade.
     """
     
-    def __init__(self, lander: LanderProfile, candidates: List[SiteResult]):
+    def __init__(self, lander: LanderProfile, candidates: List[SiteResult], terrain_provider=None):
+        from lunar_hazard_mapper.m6_planner.adapters.terrain_provider import MockTerrainProvider
         self.lander = lander
         self.all_candidates = candidates
+        self.terrain_provider = terrain_provider if terrain_provider is not None else MockTerrainProvider(0.0)
 
     def handle_replan_event(
         self, 
@@ -45,15 +47,14 @@ class ReplanManager:
         
         # 3. Generate New Trajectory if an alternative exists
         if best_site:
-            from lunar_hazard_mapper.m6_planner.adapters.terrain_provider import MockTerrainProvider
-            
+            target_z = self.terrain_provider.get_height(best_site.x, best_site.y)
             new_trajectory_id = f"TRAJ_{uuid.uuid4().hex[:8].upper()}"
             new_trajectory = generate_trajectory(
                 initial_state=current_state_array,
-                target_pos=np.array([best_site.x, best_site.y, 0.0]),
+                target_pos=np.array([best_site.x, best_site.y, target_z]),
                 lander=self.lander,
                 target_site_id=best_site.siteId,
-                terrain_provider=MockTerrainProvider(0.0)
+                terrain_provider=self.terrain_provider
             )
             # Add trajectory ID to metadata
             if new_trajectory.metadata is None:

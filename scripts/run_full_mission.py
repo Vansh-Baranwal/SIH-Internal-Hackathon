@@ -87,6 +87,25 @@ def main():
     m6_sites = convert_m5_sites_to_m6_results(m5_result)
     m6_lander = convert_m5_lander_to_m6_profile(m5_result["lander"])
     
+    # Create Terrain Provider from DEM
+    from lunar_hazard_mapper.m6_planner.adapters.terrain_provider import TerrainProvider
+    class DEMTerrainProvider(TerrainProvider):
+        def __init__(self, dem_z: np.ndarray, dx: float, dy: float):
+            self.z = dem_z
+            self.dx = dx
+            self.dy = dy
+            self.max_row = self.z.shape[0] - 1
+            self.max_col = self.z.shape[1] - 1
+            
+        def get_height(self, x: float, y: float) -> float:
+            col = int(round(x / self.dx))
+            row = int(round(y / self.dy))
+            col = max(0, min(col, self.max_col))
+            row = max(0, min(row, self.max_row))
+            return float(self.z[row, col])
+
+    terrain_provider = DEMTerrainProvider(m4_to_m5['terrain']['z'], m4_to_m5['terrain']['dx'], m4_to_m5['terrain']['dy'])
+
     # Sort sites purely by score to grab the top one
     m6_sites_sorted = sorted([s for s in m6_sites if s.feasible], key=lambda x: x.score, reverse=True)
     if not m6_sites_sorted:
@@ -94,7 +113,8 @@ def main():
         return
 
     best_site = m6_sites_sorted[0]
-    print(f"M6 Selected Primary Target: {best_site.siteId} (Score: {best_site.score:.3f})")
+    primary_target_z = terrain_provider.get_height(best_site.x, best_site.y)
+    print(f"M6 Selected Primary Target: {best_site.siteId} (Score: {best_site.score:.3f}, Z: {primary_target_z:.2f})")
 
     # Export selected site
     with open(out_dir / "target_site.json", "w") as f:
@@ -103,14 +123,18 @@ def main():
     # 4. M6 Trajectory Generation
     print("\n[M6] Generating Trajectory...")
     maneuver_config = ManeuverConfig(maxDuration=60.0)
-    initial_state = np.array([0.0, 0.0, 1000.0, 50.0, 0.0, 0.0])
+    
+    # Start at the center of the 200x200 DEM, 200m high, descending at 5m/s.
+    # This represents the terminal descent phase.
+    initial_state = np.array([100.0, 100.0, 200.0, 0.0, 0.0, -5.0])
     
     trajectory_a = generate_trajectory(
         initial_state=initial_state,
-        target_pos=np.array([best_site.x, best_site.y, 0.0]),
+        target_pos=np.array([best_site.x, best_site.y, primary_target_z]),
         lander=m6_lander,
         target_site_id=best_site.siteId,
-        maneuver_config=maneuver_config
+        maneuver_config=maneuver_config,
+        terrain_provider=terrain_provider
     )
     
     TrajectoryExporter.export_to_json(trajectory_a, out_dir / "trajectory_primary.json")
@@ -134,7 +158,7 @@ def main():
     
     # 6. Fallback Site Selection (M5 <-> M6 Loop)
     print("\n[M5/M6 Loop] Triggering fallback site selection...")
-    manager = ReplanManager(m6_lander, m6_sites_sorted)
+    manager = ReplanManager(m6_lander, m6_sites_sorted, terrain_provider)
     new_site, new_traj, event = manager.handle_replan_event(context, old_trajectory_id="TRAJ_PRIMARY")
     
     if new_site:
