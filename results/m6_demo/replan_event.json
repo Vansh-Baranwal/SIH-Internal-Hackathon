@@ -1,0 +1,45 @@
+{
+  "timestamp": 15.0,
+  "trigger": "HAZARD_INJECTED",
+  "oldSite": "SITE_A",
+  "newSite": "SITE_B",
+  "candidates": [
+    {
+      "siteId": "SITE_B",
+      "x": -50.0,
+      "y": 80.0,
+      "score": 0.85,
+      "feasible": true,
+      "reasons": [],
+      "metrics": {
+        "slope": 5.4,
+        "distance": 94.3,
+        "maneuverCost": 157.03616000287073
+      }
+    }
+  ],
+  "reason": "Unexpected boulder field detected near touchdown zone",
+  "oldTrajectoryId": "TRAJ_PRIMARY",
+  "newTrajectoryId": "TRAJ_EEBBB7CF",
+  "rejectedCandidates": [
+    {
+      "siteId": "SITE_A",
+      "reasons": [
+        "Invalidated by hazard event"
+      ]
+    },
+    {
+      "siteId": "SITE_C",
+      "reasons": [
+        "Required Delta-V (819.9 m/s) exceeds budget (500.0 m/s)"
+      ]
+    },
+    {
+      "siteId": "SITE_D",
+      "reasons": [
+        "Slope exceeds 12 deg"
+      ]
+    }
+  ],
+  "maneuverCost": 157.03616000287073
+}

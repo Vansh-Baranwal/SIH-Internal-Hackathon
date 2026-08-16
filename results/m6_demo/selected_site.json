@@ -1,0 +1,12 @@
+{
+  "siteId": "SITE_A",
+  "x": 100.0,
+  "y": 100.0,
+  "score": 0.98,
+  "feasible": true,
+  "reasons": [],
+  "metrics": {
+    "slope": 2.1,
+    "distance": 141.4
+  }
+}
