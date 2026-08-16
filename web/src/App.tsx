@@ -6,6 +6,7 @@ import type { MissionData, TrajectoryPoint, TargetSite } from './types/api';
 import { Terrain } from './components/Terrain';
 import { Lander } from './components/Lander';
 import { HUD } from './components/HUD';
+import { UploadTMC } from './components/UploadTMC';
 
 type MissionStatus = 'LOADING' | 'NORMAL DESCENT' | 'HAZARD DETECTED' | 'REPLANNING' | 'DIVERSION' | 'SAFE TOUCHDOWN' | 'ERROR';
 
@@ -17,8 +18,10 @@ function App() {
   const [currentTarget, setCurrentTarget] = useState<TargetSite | null>(null);
   const [activeTrajectory, setActiveTrajectory] = useState<any>(null);
   const [replanTriggered, setReplanTriggered] = useState<boolean>(false);
+  const [m2Completed, setM2Completed] = useState<boolean>(false);
 
   useEffect(() => {
+    if (!m2Completed) return;
     fetchMissionData()
       .then(data => {
         setMissionData(data);
@@ -30,7 +33,7 @@ function App() {
         console.error(err);
         setStatus('ERROR');
       });
-  }, []);
+  }, [m2Completed]);
 
   // Animation Loop
   useEffect(() => {
@@ -90,13 +93,14 @@ function App() {
     return () => cancelAnimationFrame(frameId);
   }, [status, missionData, activeTrajectory, replanTriggered]);
 
-  if (status === 'LOADING') return <div className="flex h-screen items-center justify-center text-cyan-500 font-mono text-2xl">LOADING MISSION DATA...</div>;
+  if (status === 'LOADING' && m2Completed) return <div className="flex h-screen items-center justify-center text-cyan-500 font-mono text-2xl">LOADING MISSION DATA...</div>;
   if (status === 'ERROR') return <div className="flex h-screen items-center justify-center text-red-500 font-mono text-2xl">ERROR LOADING MISSION DATA</div>;
 
   const fallbackSite = missionData?.replan_event?.candidates.find(c => c.siteId === missionData.replan_event?.newSite) || null;
 
   return (
     <div className="w-full h-full relative bg-black">
+      {!m2Completed && <UploadTMC onUploadComplete={() => setM2Completed(true)} />}
       <HUD 
         telemetry={telemetry} 
         status={status} 

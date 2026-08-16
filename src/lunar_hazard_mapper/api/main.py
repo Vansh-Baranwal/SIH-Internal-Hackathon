@@ -1,5 +1,5 @@
-from fastapi import FastAPI, HTTPException
-from fastapi.responses import FileResponse
+from fastapi import FastAPI, HTTPException, UploadFile, File
+from fastapi.responses import FileResponse, JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pathlib import Path
 import json
@@ -24,6 +24,18 @@ app.add_middleware(
 BASE_DIR = Path(__file__).resolve().parent.parent.parent.parent
 MISSION_DIR = BASE_DIR / "results" / "mission_export"
 ASSETS_DIR = BASE_DIR / "blender" / "assets"
+
+UPLOAD_DIR = BASE_DIR / "data" / "uploads"
+UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
+SR_DIR = BASE_DIR / "data" / "sr_outputs"
+SR_DIR.mkdir(parents=True, exist_ok=True)
+
+from fastapi.staticfiles import StaticFiles
+app.mount("/static/uploads", StaticFiles(directory=UPLOAD_DIR), name="uploads")
+app.mount("/static/sr", StaticFiles(directory=SR_DIR), name="sr_outputs")
+
+import time
+from lunar_hazard_mapper.m2_super_resolution.inference import infer_geotiff
 
 def read_json_file(filename: str) -> dict:
     filepath = MISSION_DIR / filename
@@ -79,3 +91,40 @@ def get_full_mission():
         "trajectory_replanned": read_json_file("trajectory_replanned.json"),
         "replan_event": read_json_file("replan_event.json")
     }
+
+@app.post("/api/upload_tmc")
+async def upload_tmc(file: UploadFile = File(...)):
+    """Uploads a TMC image, runs CSASR M2 inference, and returns URLs for comparison."""
+    if not file.filename:
+        raise HTTPException(status_code=400, detail="No file uploaded")
+        
+    input_path = UPLOAD_DIR / file.filename
+    output_filename = f"sr_{file.filename}"
+    output_path = SR_DIR / output_filename
+    
+    with open(input_path, "wb") as buffer:
+        content = await file.read()
+        buffer.write(content)
+        
+    start_time = time.time()
+    
+    try:
+        # Run M2 super-resolution!
+        checkpoint_dir = BASE_DIR / "checkpoints"
+        infer_geotiff(checkpoint_dir, input_path, output_path)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"M2 Inference failed: {str(e)}")
+        
+    end_time = time.time()
+    
+    # Ready for M3-M6: We could trigger a Celery task here or just return the paths
+    # so the frontend can display them, and another endpoint can start M3.
+    
+    return JSONResponse({
+        "original_url": f"/static/uploads/{file.filename}",
+        "sr_url": f"/static/sr/{output_filename}",
+        "inference_time_ms": round((end_time - start_time) * 1000, 2),
+        "scale_factor": "32x (4x Stage1 * 4x Stage2 * 2x Bicubic)",
+        "ready_for_m3": True,
+        "sr_filepath": str(output_path)
+    })

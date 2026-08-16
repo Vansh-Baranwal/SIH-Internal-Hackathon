@@ -11,3 +11,5 @@ blender/*.blend1
 !**/README.md
 !**/.gitkeep
 checkpoints/reference_model.pth
+data/uploads/*
+data/sr_outputs/*
