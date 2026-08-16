@@ -20,7 +20,8 @@ from lunar_hazard_mapper.m5_lander.evaluator import evaluate_sites
 BASE_DIR = Path(__file__).resolve().parent.parent.parent.parent
 CHECKPOINT_DIR = BASE_DIR / "checkpoints"
 
-def run_dual_pipeline(scene_id: str = "01_01", subset_window=((0, 400), (0, 400))):
+from typing import Optional, Sequence
+def run_dual_pipeline(scene_id: str = "01_01", subset_window=((0, 400), (0, 400)), initial_state: Optional[Sequence[float]] = None):
     """
     Executes the complete M1->M6 parallel dual-path architecture using
     the genuine TMCORTHO and TMCDTM matching pair.
@@ -92,17 +93,20 @@ def run_dual_pipeline(scene_id: str = "01_01", subset_window=((0, 400), (0, 400)
         dem_array = src.read(1, window=subset_window)
         dem_res = src.res[0]
         dem_crs = str(src.crs)
+        src_transform = src.window_transform(subset_window)
         
     # M3 explicitly requires "source_type": "measured" via the abstraction in this branch
-    # Note: Our dem_array is physical elevation in meters
+    # Keep DEM in native geographic coordinates
     dem_obj = generate_dem(
         source={"elevation": dem_array, "source_type": "measured"},
         pixel_size_m=dem_res,
-        origin_xy=(0.0, 0.0),
+        origin_xy=(src_transform.c, src_transform.f),
         nodata=-32768.0,
         crs=dem_crs,
         assume_optical_as_elevation=False,
     )
+    # Strictly enforce the actual raster transform
+    dem_obj.transform = src_transform
     t3 = time.time()
     
     valid_elevations = dem_array[dem_array != -32768.0]
@@ -122,11 +126,28 @@ def run_dual_pipeline(scene_id: str = "01_01", subset_window=((0, 400), (0, 400)
     t4 = time.time()
     m4_input = dem_to_m4_input(dem_obj)
     
-    # Scale resolution to meters if it's in degrees for M4 math
-    if m4_input["dx"] < 1.0:
-        conversion = 30323.0 # approx meters per degree
-        m4_input["dx"] *= conversion
-        m4_input["dy"] *= conversion
+    # Establish precise local metric Cartesian frame for M4/M5
+    if m4_input["dx"] < 1.0: # degrees
+        R_moon = 1737400.0
+        m_per_deg_lat = R_moon * np.pi / 180.0
+        
+        # Calculate exact center latitude of the subset to determine longitudinal scale
+        center_lat = dem_obj.transform.f + (dem_array.shape[0] / 2) * dem_obj.transform.e
+        m_per_deg_lon = m_per_deg_lat * np.cos(np.radians(center_lat))
+        
+        # Assign mathematically exact metric resolution
+        m4_input["dx"] = abs(dem_obj.transform.a) * m_per_deg_lon
+        m4_input["dy"] = abs(dem_obj.transform.e) * m_per_deg_lat
+        
+        # M5 requires Cartesian candidates. We anchor the subset top-left at (0, 0) meters.
+        m4_input["origin"]["x_m"] = 0.0
+        m4_input["origin"]["y_m"] = 0.0
+        
+        # Store transformation anchor for M6 TerrainProvider
+        m4_input["origin_lon_deg"] = dem_obj.transform.c
+        m4_input["origin_lat_deg"] = dem_obj.transform.f
+        m4_input["m_per_deg_lon"] = m_per_deg_lon
+        m4_input["m_per_deg_lat"] = m_per_deg_lat
         
     grads = compute_gradients(m4_input)
     slope = compute_slope(grads)
@@ -186,18 +207,82 @@ def run_dual_pipeline(scene_id: str = "01_01", subset_window=((0, 400), (0, 400)
     # M6: MISSION PLANNING
     # ---------------------------------------------------------
     t8 = time.time()
-    m6_status = "skipped"
+    
+    from lunar_hazard_mapper.m6_planner.adapters.m5_adapter import convert_m5_sites_to_m6_results, convert_m5_lander_to_m6_profile
+    from lunar_hazard_mapper.m6_planner.trajectory.generator import generate_trajectory
+    from lunar_hazard_mapper.m6_planner.schemas import ManeuverConfig
+    from lunar_hazard_mapper.m6_planner.adapters.dem_provider import DemBackedTerrainProvider
+    from lunar_hazard_mapper.m6_planner.reachability.evaluator import evaluate_reachability
+    
+    m6_status = "blocked"
     trajectory_info = {}
     
-    if candidates:
+    if not candidates:
+        m6_status = "no_candidates"
+    elif initial_state is None:
+        m6_status = "blocked"
+        trajectory_info = {
+            "reason": "Missing initial mission state [x, y, z, vx, vy, vz]"
+        }
+    else:
         try:
-            top_site = candidates[0]
-            trajectory_info = {
-                "selected_site": {"x": top_site.get("col", 0), "y": top_site.get("row", 0)},
-                "reachable": True,
-                "delta_v": 15.0
-            }
-            m6_status = "success"
+            m6_sites = convert_m5_sites_to_m6_results(landing_zone)
+            m6_lander = convert_m5_lander_to_m6_profile(landing_zone.get("lander", {}))
+            top_site = m6_sites[0]
+            
+            init_state_arr = np.array(initial_state)
+            terrain_provider = DemBackedTerrainProvider(
+                dem=dem_obj,
+                origin_lon_deg=m4_input.get("origin_lon_deg"),
+                origin_lat_deg=m4_input.get("origin_lat_deg"),
+                m_per_deg_lon=m4_input.get("m_per_deg_lon"),
+                m_per_deg_lat=m4_input.get("m_per_deg_lat")
+            )
+            
+            is_reachable, maneuver_cost, reason = evaluate_reachability(
+                site=top_site,
+                lander=m6_lander,
+                current_state=init_state_arr,
+                config=ManeuverConfig()
+            )
+            
+            if is_reachable:
+                try:
+                    target_z = terrain_provider.get_height(top_site.x, top_site.y)
+                    
+                    trajectory = generate_trajectory(
+                        initial_state=init_state_arr,
+                        target_pos=np.array([top_site.x, top_site.y, target_z]),
+                        lander=m6_lander,
+                        target_site_id=top_site.siteId,
+                        terrain_provider=terrain_provider
+                    )
+                    
+                    trajectory_info = {
+                        "selected_site": {"x": top_site.x, "y": top_site.y, "siteId": top_site.siteId},
+                        "reachable": True,
+                        "delta_v": maneuver_cost,
+                        "status": trajectory.status.value,
+                        "points_count": len(trajectory.points) if trajectory.points else 0
+                    }
+                    
+                    m6_status = "success" if trajectory.status.value == "SUCCESS" else trajectory.status.value.lower()
+                    
+                except ValueError as ve:
+                    m6_status = "invalid"
+                    trajectory_info = {
+                        "selected_site": {"x": top_site.x, "y": top_site.y, "siteId": top_site.siteId},
+                        "reachable": False,
+                        "reason": f"Terrain Provider rejected target site coordinates: {ve}"
+                    }
+            else:
+                m6_status = "blocked"
+                trajectory_info = {
+                    "selected_site": {"x": top_site.x, "y": top_site.y, "siteId": top_site.siteId},
+                    "reachable": False,
+                    "reason": reason
+                }
+                
         except Exception as e:
             m6_status = f"error: {str(e)}"
     

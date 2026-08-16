@@ -43,7 +43,11 @@ export function UploadTMC({ onUploadComplete }: { onUploadComplete: () => void }
           </div>
           <div className="mt-4 p-4 bg-gray-900 border border-gray-700">
             <p>Inference Time: {result.inference_time_ms} ms</p>
-            <p>Status: {result.pipeline.m6.status === "success" ? "TRAJECTORY FEASIBLE" : "NO TRAJECTORY"}</p>
+            <p>M6 Status: {result.pipeline.m6.status.toUpperCase()}</p>
+            {result.pipeline.m6.trajectory?.reason && (
+              <p className="text-red-400">{result.pipeline.m6.trajectory.reason}</p>
+            )}
+            <p>Maneuver Cost: {result.pipeline.m6.trajectory?.delta_v ? `${result.pipeline.m6.trajectory.delta_v.toFixed(1)} m/s` : "N/A"}</p>
           </div>
           <button 
             className="mt-6 px-6 py-2 bg-cyan-600 hover:bg-cyan-500 text-white"
@@ -77,3 +81,4 @@ export function UploadTMC({ onUploadComplete }: { onUploadComplete: () => void }
     </div>
   );
 }
+
