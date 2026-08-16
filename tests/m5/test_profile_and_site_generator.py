@@ -10,6 +10,21 @@ def test_load_existing_lander_profile():
     assert profile.name == "Lander B"
     assert profile.max_slope_deg == 5
     assert profile.landing_zone_size_m == 24.0
+    assert profile.footprint_radius_m == 4.5
+
+
+def test_load_profile_with_missing_optional_fields(tmp_path):
+    yaml_content = """
+    name: Test Missing Field
+    mass_kg: 1000
+    max_slope_deg: 10
+    landing_zone_size_m: 20
+    """
+    config_file = tmp_path / "test_lander.yaml"
+    config_file.write_text(yaml_content)
+    
+    profile = load_lander_profile(str(config_file))
+    assert profile.name == "Test Missing Field"
     assert profile.footprint_radius_m is None
 
 
