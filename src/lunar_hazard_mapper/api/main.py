@@ -4,12 +4,17 @@ from fastapi.middleware.cors import CORSMiddleware
 from pathlib import Path
 import json
 
+import os
+
 app = FastAPI(title="SIH Lunar Hazard Mapper - Mission API")
 
 # Configure CORS
+frontend_origin = os.environ.get("FRONTEND_ORIGIN", "*")
+origins = [frontend_origin] if frontend_origin != "*" else ["*"]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"], # Allow frontend to access during local development
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
