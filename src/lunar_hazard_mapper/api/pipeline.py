@@ -19,7 +19,7 @@ from lunar_hazard_mapper.m5_lander.evaluator import evaluate_sites
 from typing import Optional, Sequence
 import PIL.Image as Image
 
-def save_hazard_artifacts(slope, continuous_risk, binary_mask, scene_id, profile, transform):
+def save_hazard_artifacts(slope, continuous_risk, binary_mask, scene_id, profile, transform, m5_A=None, m5_B=None, dx=1.0, dy=1.0):
     out_dir = BASE_DIR / 'data' / 'sr_outputs'
     out_dir.mkdir(parents=True, exist_ok=True)
 
@@ -39,6 +39,41 @@ def save_hazard_artifacts(slope, continuous_risk, binary_mask, scene_id, profile
     risk_img[:,:,1] = ((1 - risk_norm) * 200).astype(np.uint8) # G
     risk_img[:,:,2] = 50 # B
     Image.fromarray(risk_img).save(out_dir / f"risk_{scene_id}.png")
+    
+    # 4. Sites visualization on Risk Map
+    sites_img = risk_img.copy()
+    if m5_A is not None or m5_B is not None:
+        if m5_B:
+            for s in m5_B:
+                c, r = s['col'], s['row']
+                if 0 <= r < sites_img.shape[0] and 0 <= c < sites_img.shape[1]:
+                    sites_img[r, c] = [0, 150, 255] # Blue
+        if m5_A:
+            for s in m5_A:
+                c, r = s['col'], s['row']
+                if 0 <= r < sites_img.shape[0] and 0 <= c < sites_img.shape[1]:
+                    if np.array_equal(sites_img[r, c], [0, 150, 255]):
+                        sites_img[r, c] = [255, 255, 0] # Yellow (Both)
+                    else:
+                        sites_img[r, c] = [0, 255, 0] # Green (A only)
+                        
+        if m5_B and len(m5_B) > 0:
+            s = m5_B[0]
+            c, r = s['col'], s['row']
+            for dr in [-1, 0, 1]:
+                for dc in [-1, 0, 1]:
+                    if 0 <= r+dr < sites_img.shape[0] and 0 <= c+dc < sites_img.shape[1]:
+                        sites_img[r+dr, c+dc] = [200, 200, 255] # White-blue cross
+                        
+        if m5_A and len(m5_A) > 0:
+            s = m5_A[0]
+            c, r = s['col'], s['row']
+            for dr in [-1, 0, 1]:
+                for dc in [-1, 0, 1]:
+                    if 0 <= r+dr < sites_img.shape[0] and 0 <= c+dc < sites_img.shape[1]:
+                        sites_img[r+dr, c+dc] = [255, 255, 255] # White cross for best A
+                        
+    Image.fromarray(sites_img).save(out_dir / f"sites_{scene_id}.png")
 
     # Binary Safe/Unsafe
     bin_img = np.zeros((binary_mask.shape[0], binary_mask.shape[1], 4), dtype=np.uint8)
@@ -73,7 +108,8 @@ def save_hazard_artifacts(slope, continuous_risk, binary_mask, scene_id, profile
     return {
         "slope_url": f"/static/sr/slope_{scene_id}.png",
         "risk_url": f"/static/sr/risk_{scene_id}.png",
-        "binary_url": f"/static/sr/binary_{scene_id}.png"
+        "binary_url": f"/static/sr/binary_{scene_id}.png",
+        "sites_url": f"/static/sr/sites_{scene_id}.png"
     }
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent.parent
@@ -233,20 +269,54 @@ def run_dual_pipeline(scene_id: str = "01_01", subset_window=((0, 400), (0, 400)
         roughness=roughness,
         confidence=confidence,
         shadow_mask=shadow_mask,
-        fused=fused,
+    fused=fused,
         craters=craters,
         boulders=boulders
     )
     t5 = time.time()
-    urls = save_hazard_artifacts(
-        slope['slope_deg'],
-        fused['continuous_risk'],
-        fused['binary_mask'],
-        scene_id,
-        dem_profile,
-        dem_obj.transform
-    )
+    # M5: LANDING ZONE FEASIBILITY
+    # ---------------------------------------------------------
+    t6 = time.time()
+    lander_A = load_lander_profile(BASE_DIR / "configs" / "landers" / "lander_A.yaml")
+    lander_B = load_lander_profile(BASE_DIR / "configs" / "landers" / "lander_B.yaml")
+    
+    lz_A = evaluate_sites(None, lander_A, m4_output)
+    lz_B = evaluate_sites(None, lander_B, m4_output)
+    
+    candidates_A = lz_A.get("recommended_sites", [])
+    candidates_B = lz_B.get("recommended_sites", [])
 
+    t7 = time.time()
+    stats["m5"] = {
+        "status": "success",
+        "candidates_found": len(candidates_A),
+        "lander_A": {
+            "name": lander_A.name,
+            "feasible_sites": len(candidates_A),
+            "best_site": candidates_A[0] if candidates_A else None
+        },
+        "lander_B": {
+            "name": lander_B.name,
+            "feasible_sites": len(candidates_B),
+            "best_site": candidates_B[0] if candidates_B else None
+        },
+        "runtime_s": round(t7 - t6, 2)
+    }
+
+    # Generate M4 artifacts with site overlays
+    urls = save_hazard_artifacts(
+        slope['slope_deg'], 
+        fused['continuous_risk'], 
+        fused['binary_mask'], 
+        scene_id, 
+        dem_profile,
+        dem_obj.transform,
+        m5_A=candidates_A,
+        m5_B=candidates_B,
+        dx=m4_input["dx"],
+        dy=m4_input["dy"]
+    )
+    
     stats["m4"] = {
         "status": "success",
         "hazard_layers": list(m4_output["hazards"].keys()),
@@ -254,22 +324,6 @@ def run_dual_pipeline(scene_id: str = "01_01", subset_window=((0, 400), (0, 400)
         "max_risk": f"{fused['continuous_risk'].max():.2f}",
         "runtime_s": round(t5 - t4, 2),
         **urls
-    }
-
-    # ---------------------------------------------------------
-    # M5: LANDING ZONE FEASIBILITY
-    # ---------------------------------------------------------
-    t6 = time.time()
-    vikram = load_lander_profile(BASE_DIR / "configs" / "landers" / "lander_A.yaml")
-    landing_zone = evaluate_sites(None, vikram, m4_output)
-
-    candidates = landing_zone.get("recommended_sites", [])
-
-    t7 = time.time()
-    stats["m5"] = {
-        "status": "success",
-        "candidates_found": len(candidates),
-        "runtime_s": round(t7 - t6, 2)
     }
 
     # ---------------------------------------------------------
@@ -286,7 +340,7 @@ def run_dual_pipeline(scene_id: str = "01_01", subset_window=((0, 400), (0, 400)
     m6_status = "blocked"
     trajectory_info = {}
 
-    if not candidates:
+    if not candidates_A:
         m6_status = "no_candidates"
     elif initial_state is None:
         m6_status = "blocked"
@@ -295,8 +349,8 @@ def run_dual_pipeline(scene_id: str = "01_01", subset_window=((0, 400), (0, 400)
         }
     else:
         try:
-            m6_sites = convert_m5_sites_to_m6_results(landing_zone)
-            m6_lander = convert_m5_lander_to_m6_profile(landing_zone.get("lander", {}))
+            m6_sites = convert_m5_sites_to_m6_results(lz_A)
+            m6_lander = convert_m5_lander_to_m6_profile(lz_A.get("lander", {}))
             top_site = m6_sites[0]
 
             init_state_arr = np.array(initial_state)
