@@ -146,6 +146,9 @@ def run_full_pipeline(scene_id: str = "01_01"):
             "pipeline": stats,
             "original_url": f"/static/uploads/TMCORTHOCH_{scene_id}.tif",
             "sr_url": f"/static/sr/sr_{scene_id}.tif",
+            "slope_url": stats.get("m4", {}).get("slope_url", ""),
+            "risk_url": stats.get("m4", {}).get("risk_url", ""),
+            "binary_url": stats.get("m4", {}).get("binary_url", ""),
             "inference_time_ms": stats.get("m2", {}).get("runtime_s", 0) * 1000,
             "scale_factor": "32x Dual-Path",
             "ready_for_m3": True
