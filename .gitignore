@@ -13,3 +13,6 @@ blender/*.blend1
 checkpoints/reference_model.pth
 data/uploads/*
 data/sr_outputs/*
+scratch/
+data/scratch/
+web/public/sr/

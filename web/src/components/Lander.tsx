@@ -2,13 +2,19 @@ import { useRef } from 'react';
 import { useGLTF } from '@react-three/drei';
 import { useFrame } from '@react-three/fiber';
 import { getAssetUrl } from '../api/client';
-import type { Trajectory, TrajectoryPoint } from '../types/api';
 import * as THREE from 'three';
 
+// Updated interface to include velocities and attitude
+interface ExtendedTrajectoryPoint {
+  t: number; x: number; y: number; z: number;
+  vx: number; vy: number; vz: number;
+  pitch?: number; yaw?: number; roll?: number;
+}
+
 interface LanderProps {
-  trajectory: Trajectory | null;
-  animationTime: number; // Controlled from the top level
-  onUpdateTelemetry: (point: TrajectoryPoint) => void;
+  trajectory: { points: ExtendedTrajectoryPoint[] } | null;
+  animationTime: number; 
+  onUpdateTelemetry: (point: ExtendedTrajectoryPoint) => void;
 }
 
 export function Lander({ trajectory, animationTime, onUpdateTelemetry }: LanderProps) {
@@ -19,14 +25,12 @@ export function Lander({ trajectory, animationTime, onUpdateTelemetry }: LanderP
   useFrame(() => {
     if (!trajectory || !groupRef.current) return;
     
-    // Find current position in trajectory based on animationTime
     const points = trajectory.points;
     if (points.length === 0) return;
 
     let currentPoint = points[0];
     let nextPoint = points[points.length - 1];
     
-    // Simple linear interpolation
     for (let i = 0; i < points.length - 1; i++) {
       if (points[i].t <= animationTime && points[i + 1].t >= animationTime) {
         currentPoint = points[i];
@@ -35,7 +39,6 @@ export function Lander({ trajectory, animationTime, onUpdateTelemetry }: LanderP
       }
     }
     
-    // If past end of trajectory, stay at last point
     if (animationTime >= points[points.length - 1].t) {
       currentPoint = points[points.length - 1];
       nextPoint = currentPoint;
@@ -44,33 +47,44 @@ export function Lander({ trajectory, animationTime, onUpdateTelemetry }: LanderP
     const tRange = nextPoint.t - currentPoint.t;
     const progress = tRange === 0 ? 0 : (animationTime - currentPoint.t) / tRange;
     
-    // Interpolate coordinates
     const x = currentPoint.x + (nextPoint.x - currentPoint.x) * progress;
     const y = currentPoint.y + (nextPoint.y - currentPoint.y) * progress;
     const z = currentPoint.z + (nextPoint.z - currentPoint.z) * progress;
     
-    // Map M6 coordinate system to ThreeJS coordinate system
     // M6: X East, Y North, Z Up
     // ThreeJS: X Right, Y Up, Z Forward
     groupRef.current.position.set(x, z, -y);
+
+    // Apply attitude (rotation)
+    const curPitch = currentPoint.pitch || 0;
+    const nextPitch = nextPoint.pitch || 0;
+    const curYaw = currentPoint.yaw || 0;
+    const nextYaw = nextPoint.yaw || 0;
+    const curRoll = currentPoint.roll || 0;
+    const nextRoll = nextPoint.roll || 0;
+
+    const pitch = curPitch + (nextPitch - curPitch) * progress;
+    const yaw = curYaw + (nextYaw - curYaw) * progress;
+    const roll = curRoll + (nextRoll - curRoll) * progress;
+
+    groupRef.current.rotation.set(pitch, yaw, roll);
     
-    // Report back current telemetry
+    // Interpolate Velocities
+    const vx = currentPoint.vx + (nextPoint.vx - currentPoint.vx) * progress;
+    const vy = currentPoint.vy + (nextPoint.vy - currentPoint.vy) * progress;
+    const vz = currentPoint.vz + (nextPoint.vz - currentPoint.vz) * progress;
+
     onUpdateTelemetry({
       t: animationTime,
-      x,
-      y,
-      z,
-      vx: currentPoint.vx + (nextPoint.vx - currentPoint.vx) * progress,
-      vy: currentPoint.vy + (nextPoint.vy - currentPoint.vy) * progress,
-      vz: currentPoint.vz + (nextPoint.vz - currentPoint.vz) * progress,
-      attitude: null
+      x, y, z,
+      vx, vy, vz,
+      pitch, yaw, roll
     });
   });
 
-  // Scale down the Vikram model appropriately since it might be huge, or use as is
   return (
     <group ref={groupRef}>
-      <primitive object={scene} scale={[1, 1, 1]} />
+      <primitive object={scene} scale={[20, 20, 20]} />
     </group>
   );
 }

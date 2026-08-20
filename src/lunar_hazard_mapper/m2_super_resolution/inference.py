@@ -123,7 +123,12 @@ def infer_geotiff(checkpoint_dir: Path, input_path: Path, output_path: Path, dev
         # The scale factor is exactly 32.
         scale_factor = 32
         
+        if "photometric" in profile:
+            del profile["photometric"]
+        if "compress" in profile:
+            del profile["compress"]
         profile.update(
+            driver="GTiff",
             height=result.shape[0],
             width=result.shape[1],
             transform=transform * transform.scale(1/scale_factor, 1/scale_factor),

@@ -40,8 +40,9 @@ def save_hazard_artifacts(slope, continuous_risk, binary_mask, scene_id, profile
     risk_img[:,:,2] = 50 # B
     Image.fromarray(risk_img).save(out_dir / f"risk_{scene_id}.png")
     
-    # 4. Sites visualization on Risk Map
+    # 4. Sites visualization on Risk Map (Combined)
     sites_img = risk_img.copy()
+    
     if m5_A is not None or m5_B is not None:
         if m5_B:
             for s in m5_B:
@@ -74,6 +75,19 @@ def save_hazard_artifacts(slope, continuous_risk, binary_mask, scene_id, profile
                         sites_img[r+dr, c+dc] = [255, 255, 255] # White cross for best A
                         
     Image.fromarray(sites_img).save(out_dir / f"sites_{scene_id}.png")
+    
+    # Generate binary safe zone masks per lander constraints
+    safe_A = (slope <= 10) & (continuous_risk <= 0.85)
+    img_A = np.zeros((slope.shape[0], slope.shape[1], 4), dtype=np.uint8)
+    img_A[~safe_A] = [255, 0, 0, 180]
+    img_A[safe_A] = [0, 255, 0, 150]
+    Image.fromarray(img_A).save(out_dir / f"sites_A_{scene_id}.png")
+    
+    safe_B = (slope <= 5) & (continuous_risk <= 0.85)
+    img_B = np.zeros((slope.shape[0], slope.shape[1], 4), dtype=np.uint8)
+    img_B[~safe_B] = [255, 0, 0, 180]
+    img_B[safe_B] = [0, 255, 0, 150]
+    Image.fromarray(img_B).save(out_dir / f"sites_B_{scene_id}.png")
 
     # Binary Safe/Unsafe
     bin_img = np.zeros((binary_mask.shape[0], binary_mask.shape[1], 4), dtype=np.uint8)
@@ -115,7 +129,7 @@ def save_hazard_artifacts(slope, continuous_risk, binary_mask, scene_id, profile
 BASE_DIR = Path(__file__).resolve().parent.parent.parent.parent
 CHECKPOINT_DIR = BASE_DIR / "checkpoints"
 
-def run_dual_pipeline(scene_id: str = "01_01", subset_window=((0, 400), (0, 400)), initial_state: Optional[Sequence[float]] = None):
+def run_dual_pipeline(scene_id: str = "01_01", subset_window=((0, 100), (0, 100)), initial_state: Optional[Sequence[float]] = None, optical_path=None, dem_path=None):
     """
     Executes the complete M1->M6 parallel dual-path architecture using
     the genuine TMCORTHO and TMCDTM matching pair.
@@ -126,11 +140,13 @@ def run_dual_pipeline(scene_id: str = "01_01", subset_window=((0, 400), (0, 400)
     """
     # Hardcoded to the verified matching pair in the dataset repository
     repo_dir = BASE_DIR.parent / "Different Repo" / "SIH" / "CODE_SIH1519_ORION SPACE SYSTEM"
-    optical_path = repo_dir / "TMCORTHO5-1" / "TMCORTHO5-1" / "TMCORTHO5-1" / f"TMCORTHOCH_{scene_id}.tif"
-    dem_path = repo_dir / "TMCDTM" / "TMCDTM" / f"TMCDTM_{scene_id}.tif"
+    if optical_path is None:
+        optical_path = repo_dir / "TMCORTHO5-1" / "TMCORTHO5-1" / "TMCORTHO5-1" / f"TMCORTHOCH_{scene_id}.tif"
+    if dem_path is None:
+        dem_path = repo_dir / "TMCDTM" / "TMCDTM" / f"TMCDTM_{scene_id}.tif"
 
-    if not optical_path.exists() or not dem_path.exists():
-        raise FileNotFoundError(f"Missing required datasets for {scene_id}: {optical_path} or {dem_path}")
+    if not optical_path.exists():
+        raise FileNotFoundError(f"Missing optical dataset: {optical_path}")
 
     stats = {}
 
@@ -139,7 +155,12 @@ def run_dual_pipeline(scene_id: str = "01_01", subset_window=((0, 400), (0, 400)
     # ---------------------------------------------------------
     t0 = time.time()
     with rasterio.open(optical_path) as src:
-        # M1 Ingestion
+        # CROP a beautifully crisp high-resolution rectangle directly from the center
+        # DO NOT downsample. Downsampling destroys the image quality!
+        center_row = src.height // 2
+        center_col = src.width // 2
+        # Crop a 1200x400 window
+        subset_window = ((center_row - 600, center_row + 600), (center_col - 200, center_col + 200))
         optical_array = src.read(1, window=subset_window)
         opt_profile = src.profile.copy()
 
@@ -167,28 +188,62 @@ def run_dual_pipeline(scene_id: str = "01_01", subset_window=((0, 400), (0, 400)
             sr_dim = f"{sr_src.width} x {sr_src.height}"
     except Exception as e:
         sr_dim = "ERROR"
-        print(f"M2 Warning: {e}")
+        import traceback; traceback.print_exc(); print(f"M2 Warning: {e}")
 
     t1 = time.time()
+    
+    # Save a PNG version for the web UI visualization
+    sr_png_path = BASE_DIR / 'data' / 'sr_outputs' / f'sr_{scene_id}.png'
+    sr_png_path.parent.mkdir(parents=True, exist_ok=True)
+    try:
+        with rasterio.open(sr_path) as sr_src:
+            arr = sr_src.read(1)
+            # Normalize to 0-255 for visualization
+            arr_min, arr_max = np.nanmin(arr), np.nanmax(arr)
+            if arr_max > arr_min:
+                arr_norm = ((arr - arr_min) / (arr_max - arr_min) * 255).astype(np.uint8)
+            else:
+                arr_norm = np.zeros_like(arr, dtype=np.uint8)
+            
+            from PIL import Image
+            Image.fromarray(arr_norm).save(str(sr_png_path))
+    except Exception as e:
+        print(f"Failed to generate SR PNG: {e}")
+
     stats["m2"] = {
         "status": "success" if sr_dim != "ERROR" else "error",
         "output_dimensions": sr_dim,
         "scale": "32x",
         "runtime_s": round(t1 - t0, 2),
-        "output_file": str(sr_path)
+        "output_file": str(sr_path),
+        "png_url": f"/static/sr/sr_{scene_id}.png"
     }
 
     # ---------------------------------------------------------
     # M3: TERRAIN PROCESSING (ELEVATION PATH)
     # ---------------------------------------------------------
     t2 = time.time()
-    with rasterio.open(dem_path) as src:
-        # Read matching window
-        dem_array = src.read(1, window=subset_window)
-        dem_res = src.res[0]
-        dem_crs = str(src.crs)
-        src_transform = src.window_transform(subset_window)
-        dem_profile = src.profile.copy()
+    if dem_path.exists():
+        with rasterio.open(dem_path) as src:
+            dem_array = src.read(1, window=subset_window)
+            dem_res = src.res[0]
+            dem_crs = str(src.crs)
+            src_transform = src.window_transform(subset_window)
+            dem_profile = src.profile.copy()
+            if np.std(dem_array) < 1.0:
+                print("WARNING: DEM is blank/corrupt. Falling back to optical estimation.")
+                with rasterio.open(sr_path) as sr_src:
+                    dem_array = sr_src.read(1).astype(np.float32)
+                    src_transform = sr_src.transform
+                dem_res = 1.0
+    else:
+        print("WARNING: No DEM found. Falling back to optical estimation.")
+        with rasterio.open(sr_path) as sr_src:
+            dem_array = sr_src.read(1).astype(np.float32)
+            src_transform = sr_src.transform
+        dem_res = 1.0
+        dem_crs = "EPSG:32610"
+        dem_profile = {"driver": "GTiff", "dtype": "float32", "nodata": None, "width": dem_array.shape[1], "height": dem_array.shape[0], "count": 1, "crs": dem_crs, "transform": src_transform}
 
     # M3 explicitly requires "source_type": "measured" via the abstraction in this branch
     # Keep DEM in native geographic coordinates

@@ -71,7 +71,7 @@ def _minimum_boulder_clearance(site: Mapping[str, Any], footprint_radius_m: floa
     for boulder in boulders:
         distance = np.hypot((float(boulder["center_row"]) - row) * dy, (float(boulder["center_col"]) - col) * dx)
         clearances.append(distance - footprint_radius_m - float(boulder.get("hazard_radius_m", boulder.get("radius_m", 0.0))))
-    return float(min(clearances)) if clearances else float("inf")
+    return float(min(clearances)) if clearances else 9999.0
 
 
 def _crater_intersects_footprint(site: Mapping[str, Any], footprint_radius_m: float, dx: float, dy: float, craters: list[Mapping[str, Any]]) -> bool:
